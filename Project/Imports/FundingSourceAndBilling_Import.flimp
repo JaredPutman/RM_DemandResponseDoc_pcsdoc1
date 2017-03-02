@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="false"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  LastCollectTime="2016-10-11T16:04:45.9452028-04:00"
+  ProjectName="Demand Response"
+  ProjectFolder="C:\Users\JPUTMAN.ROUTEMATCH\Documents\My Projects\Demand Response\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  Stylesheet="../../Content/Resources/Stylesheets/DR_MainStyles.css"
+  LastImport="2016-10-11T16:05:41.3388480-04:00">
+  <Files>
+    <Url
+      Source="../../../../../Desktop/Desktop Docs/FundingSourceAndBilling_Import.docx"
+      AbsoluteSource="file:///C:/Users/JPUTMAN.ROUTEMATCH/Desktop/Desktop Docs/FundingSourceAndBilling_Import.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/Billing Module Overview.htm"
+      TimeStamp="10/11/2016 4:05:36 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/How to Create a Billing Rule.htm"
+      TimeStamp="10/11/2016 4:05:36 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/General Information.htm"
+      TimeStamp="10/11/2016 4:05:36 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/Expected Customer Pay.htm"
+      TimeStamp="10/11/2016 4:05:36 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/Compute Non Customer Pay Cost.htm"
+      TimeStamp="10/11/2016 4:05:36 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/Compute Cost Criteria.htm"
+      TimeStamp="10/11/2016 4:05:36 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/Chapter 5 Global Values and.htm"
+      TimeStamp="10/11/2016 4:05:37 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/Global Values.htm"
+      TimeStamp="10/11/2016 4:05:37 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/How to Set a Global Value.htm"
+      TimeStamp="10/11/2016 4:05:37 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/Master Cost Attributes.htm"
+      TimeStamp="10/11/2016 4:05:37 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/Chapter 6 Editing and Deleting.htm"
+      TimeStamp="10/11/2016 4:05:37 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/Editing a Billing Rule.htm"
+      TimeStamp="10/11/2016 4:05:37 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/How to Edit Billing Rates.htm"
+      TimeStamp="10/11/2016 4:05:37 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/How to Edit Billing Parameters.htm"
+      TimeStamp="10/11/2016 4:05:37 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/How to Delete a Billing Rule.htm"
+      TimeStamp="10/11/2016 4:05:37 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/How to Create a Funding Source.htm"
+      TimeStamp="10/11/2016 4:05:37 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/How to Edit a Funding Source.htm"
+      TimeStamp="10/11/2016 4:05:37 PM" />
+    <Url
+      Source="../../Content/FundingSourceAndBilling_Import/How to Delete a Funding Source.htm"
+      TimeStamp="10/11/2016 4:05:37 PM" />
+    <Url
+      Source="../TOCs/FundingSourceAndBilling_Import.fltoc"
+      TimeStamp="10/11/2016 4:05:36 PM" />
+    <Url
+      Source="../../Content/Resources/MasterPages/FundingSourceAndBilling_Import.flmsp"
+      TimeStamp="10/11/2016 4:05:36 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/DR_MainStyles_1.css"
+      TimeStamp="10/11/2016 4:05:36 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+    <Map
+      From="Heading 5"
+      To="h5.Heading 5" />
+    <Map
+      From="Heading 6"
+      To="h6.Heading 6" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+    <Map
+      From="Special Bold"
+      To="b" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="ChapterHeader" />
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="AllowPageBreak" />
+    <StyleName
+      Name="ChapterHeader" />
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="List Alpha" />
+    <StyleName
+      Name="List Bullet 2" />
+    <StyleName
+      Name="List Number" />
+    <StyleName
+      Name="List Paragraph" />
+    <StyleName
+      Name="Note Body" />
+    <StyleName
+      Name="NoteHeader" />
+    <StyleName
+      Name="WarningHeader" />
+    <StyleName
+      Name="WarningText" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Special Bold" />
+  </UsedCharacterStyles>
+</MsWordImport>

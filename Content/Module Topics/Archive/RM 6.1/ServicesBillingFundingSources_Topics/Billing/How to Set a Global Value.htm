@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="2170" MadCap:lastWidth="1013">
+    <head><title></title>
+        <link href="../../../../../Resources/Stylesheets/DR_MainStyles_1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">How to Set a Global Value</h2>
+        <ol>
+            <li>Click the Global Values button located on the toolbar. The Global Parameter Manager screen displays.</li>
+        </ol>
+        <p>
+            <img src="../../../../../Resources/Images/Services_FundingSources_BillingRules_Screenshots/BillingRuleGlobalParameters.jpg" class="ImageStep" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Select a data type from the left side of the screen.</li>
+            <li>Click New. This displays the “Add New Value For Global Parm” screen.</li>
+        </ol>
+        <p>
+            <img src="../../../../../Resources/Images/Services_FundingSources_BillingRules_Screenshots/BillingRuleGlobalParmValue.jpg" class="ImageStep" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>From here, enter a Name for the new global value.</li>
+            <li>Enter a Value to define this global parameter.</li>
+            <li>Click OK. This adds the value to the Global Parameter Manager screen beneath your selected data type. It can now be inserted into billing rule parameters.</li>
+        </ol>
+        <p><b>Example</b>
+        </p>
+        <p>Say you need to create a trip cost billing rule that includes the following conditions:</p>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li style="list-style-type: disc;">If the estimated trip distance is less than ten miles, add an $8.00 charge.</li>
+            <li style="list-style-type: disc;">Otherwise, there is no additional charge.</li>
+            <li style="list-style-type: disc;">Also, the $8.00 charge needs to be updated every month.</li>
+        </ul>
+        <p>The problem arises with the third condition. Without it, the first two conditions could be met by using a simple SQL database statement. However, having to revise this charge every month within the SQL statement would be very troublesome. Complete the following steps to work around this problem by using a global value:</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Create a global value that represents the date-spanning condition.</li>
+            <li>Determine the internal database ID of the global value created in step 1 by executing the following query:</li>
+        </ol>
+        <p class="IndentStep">SELECT ID</p>
+        <p class="IndentStep">FROM dbo.t_RelationshipFunctionCallReferencedParamValues</p>
+        <p class="IndentStep">WHERE ReferenceName = &lt;Name of Global Value Goes Here&gt;</p>
+        <p class="IndentStep">AND Private = 0</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="3">
+            <li>Use the following expression in the place where you want to use the variable:</li>
+        </ol>
+        <p class="IndentStep">dbo.RBEFunctionCallReferenceValueByDate(tblTripsActual.TripDate, ??? &lt;- use ID from Step #2)</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="4">
+            <li>Thus, for this example, the final expression should look like:</li>
+        </ol>
+        <p class="IndentStep">CASE WHEN tblTrips.EstTripDistance &lt; 10 THEN dbo.RBEFunctionCallReferenceValueByDate(tblTripsActual.TripDate, ??? &lt;- use ID from Step #2) ELSE 0.00 END</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="5">
+            <li>Enter this expression as the value of a billing parameter.</li>
+        </ol>
+        <p>For this technique to work, make sure to never delete the global values that are used in the expression. Deleting and re-creating global values results in variables with different database ID numbers and the expression fails (or returns unexpected results).</p>
+    </body>
+</html>

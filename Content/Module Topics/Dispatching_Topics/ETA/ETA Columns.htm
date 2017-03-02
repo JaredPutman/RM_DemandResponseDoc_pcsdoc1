@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="905" MadCap:lastWidth="1143">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2>
+            <MadCap:keyword term="ETA Columns">&#160;</MadCap:keyword><a name="_Toc447716297"></a>ETA Columns</h2>
+        <h3>
+            <MadCap:keyword term="ETA (actual)">&#160;</MadCap:keyword><a name="_Toc447716298"></a>ETA (actual)</h3>
+        <p>This column is constantly recalculated as data is entered or received from MDCs. It reflects the "estimated time of arrival" based on the current data and adjusts for both late and early entries.</p>
+        <p>This column uses the following calculation:</p>
+        <p>ETA (actual) = ETA of previous stop + RSE calculated travel time + applicable load and/or unload time.</p>
+        <p>If the prior stop was a break and that break did not have a location specified, then the travel time is calculated based on the most recent stop that has a location specified.</p>
+        <p>If the prior stop was a pick-up and a No Show, then the load time is not added.&#160; If the prior stop is a No Show but is the drop-off, then the travel time is calculated based on the most recent stop that has an address and isn’t a drop-off No Show.</p>
+        <p>ETA (actual) is immediately calculated when either of the following occurs:</p>
+        <p>Dispatch makes an edit to any of the following grid columns and saves: Stop Time, Completed, Cancelled, No Show, Vehicle, Appointment Time, Address, Attendant Count, Guest Count, Timing Preference, and Requested Time.</p>
+        <p>An MDC updates to the same columns as in the first bullet point, which occurs when a driver uses the MDC to arrive, depart, no show, etc.</p>
+        <p>Periodic GPS updates are an added bonus (for granularity) and initiate a recalculation if the GPS update is received after the ETA Age to Refresh on GPS Updates setting. This setting is configured by your administrator in the Settings module and compares the amount of time since the last ETA recalculation with the amount of time chosen for the setting. If the update is received too soon since the last update, no calculation is made, though the GPS information is still saved.</p>
+        <p>GPS updates may be sent in too quickly, or for too many vehicles for the application to process them all as they come in, so those that are later than the ETA Age to Refresh on GPS Updates setting are queued for calculation. As the data sits in the queue it will be replaced by newer data from the same vehicle so that when the calculation does occur, only the most recent GPS information will be used in the calculation.</p>
+    </body>
+</html>

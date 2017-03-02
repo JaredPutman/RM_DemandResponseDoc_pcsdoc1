@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1219" MadCap:lastWidth="1160">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h3>
+            <MadCap:keyword term="Validation Rules">&#160;</MadCap:keyword><a name="_Toc447186077"></a>Validation Rules</h3>
+        <p>The following rules are available to be installed on your database by your RouteMatch Project Manager or Customer Support contact. If none of these rules are installed, this feature only checks for basic database issues and is not operationally helpful to your scheduling team. </p>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1"><b>Rule Name</b>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1"><b>Description</b>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1"><b>Configurable Parameters</b>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>&lt; &lt;value&gt; Revenue Hours: Not enough work on vehicle</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>This rule finds vehicles with less than the configured threshold amount of revenue hours. </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>@revenuehours - Minimum revenue hours; Default is 4</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Deadhead Trip: Deadhead for this trip is greater than &lt;value&gt; miles</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>This rule finds deadhead amounts greater than the configured amount of miles. </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>@deadheadmiles - Maximum deadhead miles; Default is 9</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Long Ride (Time): Client is onboard more than &lt;value&gt; minutes</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>This rule finds trips that longer than the maximum configured duration. </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>@maxduration - Maximum trip minutes; Default is 90</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Extended Trip (Time):&#160; Trip scheduled minutes compared to trip estimated minutes</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>This rule finds trips where scheduled minutes are greater than estimated minutes greater than the configured amount of time.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>@OnboardAddMinutes - Default is 0. Added to product of estimated trip time and onboardfactor to determine the maximum recommended trip time.</p>
+                        <p>@OnboardFactor - Default is 1.5. Multiplied by estimated trip time when calculating maximum recommended trip time in addition to OnboardAddMinutes.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Scheduled Before Window: Trip is before requested time window</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>This rule finds trips that will be picked up before the requested time window. </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>None</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Slack &gt; &lt;value&gt;m: Time between garage or trip and next trip is greater than &lt;value&gt;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>This rule finds deadhead and inline deadhead trips greater than the configured amount of time. </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>@MaxSlackMinutes - Default is 120.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Trip Miles to Onboard Miles: Low trip miles and high onboard time</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>This rule finds trips that have low miles compared to high onboard time. For example 1 mile in 10 minutes or 10 miles in 100 minutes.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p>@MinTripSpeed - Default is 10. This is the minimum number of miles that is acceptable for a rider to travel in 60 minutes. </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

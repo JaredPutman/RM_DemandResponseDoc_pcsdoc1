@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="3479" MadCap:lastWidth="1155">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h3>
+            <MadCap:keyword term="How to Execute a Schedule Optimization">&#160;</MadCap:keyword><a name="_Toc447186040"></a>How to Execute a Schedule Optimization</h3>
+        <ol>
+            <li>Click the <b>Optimize </b>button on the Scheduling Module and select Run Optimization Engine: RSE™ to open the Select Vehicles/Run To Optimize window. This window lists the available vehicles and runs on the left side of the screen.</li>
+            <li>At the top of the screen, select whether you want to restrict the optimization according to the grouping currently selected in the Unscheduled Trips window. For example, you can use this to optimize only the trips under a specific mobility type.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Scheduling_Screenshots/How to Execute a Schedule.png" style="width: 590px; height: 23px;" class="ImageStep" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Select the vehicle or run from the tree on the left side. You can click the plus sign icon next to the vehicle to expand the list if there are runs already added to the vehicle.</li>
+            <li>Click Add to move the vehicle or run to the optimize list. If you want to optimize all available vehicles and runs, click Add All. If you need to remove a vehicle from the optimize list, select the vehicle and click Remove, or click Remove All to remove all vehicles and runs from the list.</li>
+            <li>Select an optimization profile from the drop-down list. Profiles determine which set of optimization tuning parameters RSE uses for the optimization.</li>
+        </ol>
+        <p class="noteTop" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #0175c0;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Important Note about Profiles</p>
+        <div>
+            <p class="noteMiddle">Previously, RouteMatch provided for only one set of RSE optimization tuning parameters. Any changes to these parameters replaced the existing values, making it difficult to go back to the original settings. In 5.3.5, these settings were updated and can now be defined with multiple profiles allowing the user to switch back and forth between different setups. </p>
+            <p class="noteBottom">This gives you the ability to modify RSE settings and keep the option to revert back to their original values. Profiles also allow you to apply multiple sets of values to different parts of scheduling optimization. For example, the user could apply one profile that highly favors vehicle efficiency to one set of vehicles, and then apply another profile that is less restrictive for another set of vehicles.</p>
+            <p class="noteTop" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #0175c0;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Optimizing Without RSE Profiles</p>
+            <p class="noteBottom">If you do not want to use this feature, you can optimize with and make changes to the Master Profile. This is the profile created from your existing settings when your system is upgraded, or created with ‘factory settings’ when first installed.</p>
+            <ol start="6">
+                <li>Select the optimization method from the drop-down at the bottom of the window. You have the following options:</li>
+            </ol>
+            <p>
+                <img src="../../../Resources/Images/Scheduling_Screenshots/RMDOC_RM_Scheduling.png" style="width: 459px; height: 83px;" class="ImageStep" />
+            </p>
+            <p class="noteTop" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #0175c0;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Note</p>
+            <p class="noteBottom">If you have trips that are set as frozen trips, none of the optimization methods will have any effect on them.</p>
+            <ul>
+                <li>Adjust scheduled trip times, maintaining stop order - Selecting this option will optimize the trips currently scheduled on the selected vehicles while maintaining the stop order of the trips on the vehicle. New trips are not added and existing trips are not removed from the selected vehicles.</li>
+                <li>Reorganize schedule, removing conflicting trips - Selecting this option will optimize the trips currently scheduled on the selected vehicles. The vehicles may have their stop order changed, conflicting trips removed, and no new trips added to the selected vehicles.</li>
+                <li>Remove current schedule and reoptimize - Selecting this option will remove any scheduled trips that are not on a run from their assigned vehicles and attempt to determine the most efficient use of the trips. This option will also attempt to add unscheduled trips to the selected vehicles.</li>
+                <li>Insert unscheduled trips where possible - Selecting this option will attempt to insert unscheduled trips on to the selected vehicles. This option will not make changes to the trips currently scheduled to the selected vehicles.</li>
+                <li>Advanced - Selecting the Advanced option displays more optimization options. The Advanced options are shown below with a brief description and you may select multiple options for the optimization.</li>
+            </ul>
+            <p>
+                <img src="../../../Resources/Images/Scheduling_Screenshots/RMDOC_RM_Scheduling_1.png" style="width: 459px; height: 93px;" class="ImageStep" />
+            </p>
+            <ul style="list-style-type: square;margin-left: 54pt;">
+                <li style="list-style-type: square;">Keep scheduled trips on same vehicles - Selecting this option will optimize the trips on the vehicles and not add any new trips to the vehicles, unless you also select "Attempt to insert unscheduled trips." All trips currently scheduled on the selected vehicles will remain on those vehicles, but possibly not at the same time as they were originally.</li>
+            </ul>
+            <ul>
+                <li>Keep scheduled trips in same order – Select this option to specify if trips already on a vehicle, should be kept in the same order as previously scheduled. The combination of Keep scheduled trips on same vehicles, Keep scheduled trips in same order, and Keep scheduled trips at same time allow schedulers to choose more detail in how RSE should handle trips already scheduled to vehicles. We recommend that you not use this option so that RSE has the freedom to re-order trips on a vehicle to create a better schedule.</li>
+            </ul>
+            <ul style="list-style-type: square;margin-left: 54pt;">
+                <li style="list-style-type: square;">Keep scheduled trips at same time - Selecting this option will optimize the trips by preserving the times of the already scheduled trips. The Keep scheduled trips on same vehicles must also be selected to use this option.</li>
+                <li style="list-style-type: square;">Only trips scheduled by RSE – For each of the Keep scheduled trips… options, you can select this to only adhere to those restrictions if RSE scheduled the trips as opposed to the trips scheduled manually.</li>
+                <li style="list-style-type: square;">Allow trips on any service - Selecting this option will optimize the trips and allow trips to be scheduled on any selected vehicle regardless of service associated to the vehicle.</li>
+                <li style="list-style-type: square;">Attempt to insert unscheduled trips - Selecting this option will optimize the trips and attempt to insert unscheduled trips to vehicles where applicable.</li>
+                <li style="list-style-type: square;">Schedule trips within runs - Selecting this option will schedule trips within the selected run time windows. No trips will be scheduled outside of the defined run times.</li>
+                <li style="list-style-type: square;">Schedule trips around runs - Selecting this option will schedule trips around runs and prevent trips from being scheduled within runs.</li>
+                <li style="list-style-type: square;">Adjust Run Times Around Trips – When trips are added to a run, the time of the run is adjusted by the trips it contains. This keeps a large time gap from existing before and after the first and last trips. For example, if the run is scheduled to run between 9 AM and 5 PM and the trips scheduled to the run are between 11 AM and 3 PM, the run time will be adjusted according to the Adjusted Runs Include Travel Times option. If the travel time is 10 minutes for both the first pickup and last drop-off, the new run would be 10:50 AM to 3:10 PM.</li>
+                <li style="list-style-type: square;">Adjusted Runs Include Travel Times – Select this option to have RSE take into account travel time to and from the garage when adjusting the run time around trips.</li>
+            </ul>
+            <ol start="7">
+                <li>Click the <b>Optimize </b>button. </li>
+                <li>The Optimization Results screen appears and has three panes: Optimized Vehicles, Current Schedule, and Proposed Schedule. The status of each trip on the vehicle is indicated by a symbol preceding the trip. The legend at the bottom of the Optimization Results screen explains the symbols. Notice that two trips were added to the schedule in the example below.</li>
+            </ol>
+            <p>
+                <img src="../../../Resources/Images/Scheduling_Screenshots/Keep scheduled trips in same.png" style="width: 520px; height: 337px;" class="ImageStep" />
+            </p>
+            <ol MadCap:continue="true">
+                <li>Click <b>Accept Vehicle</b> to accept the schedule on the selected vehicle. Click Accept Schedule to accept the schedules on all vehicles, or click Cancel and Return to discard the schedule. </li>
+                <li>Click <b>Apply Schedule</b> to finish the process and close the screen.</li>
+            </ol>
+        </div>
+    </body>
+</html>

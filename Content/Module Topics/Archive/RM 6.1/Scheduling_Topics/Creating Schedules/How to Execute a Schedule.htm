@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="500" MadCap:lastWidth="592">
+    <head><title></title>
+        <link href="../../../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h3>
+            <MadCap:keyword term="How to Execute a Schedule Optimization">&#160;</MadCap:keyword><a name="_Toc447186040"></a>How to Execute a Schedule Optimization</h3>
+        <ol style="list-style-type: decimal;margin-left: 35pt;" start="1">
+            <li>Click the Optimize button on the Scheduling Module and select Run Optimization Engine: RSE™ to open the Select Vehicles/Run To Optimize window. This window lists the available vehicles and runs on the left side of the screen.</li>
+            <li>At the top of the screen, select whether you want to restrict the optimization according to the grouping currently selected in the Unscheduled Trips window. For example, you can use this to optimize only the trips under a specific mobility type.</li>
+        </ol>
+        <p>
+            <img src="../../../../../Resources/Images/Scheduling_Screenshots/How to Execute a Schedule.png" style="visibility: visible;width: 590px;height: 23px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 35pt;" start="3">
+            <li>Select the vehicle or run from the tree on the left side. You can click the plus sign icon next to the vehicle to expand the list if there are runs already added to the vehicle.</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 35pt;" start="4">
+            <li>Click Add to move the vehicle or run to the optimize list. If you want to optimize all available vehicles and runs, click Add All. If you need to remove a vehicle from the optimize list, select the vehicle and click Remove, or click Remove All to remove all vehicles and runs from the list.</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 35pt;" start="5">
+            <li>Select an optimization profile from the drop-down list. Profiles determine which set of optimization tuning parameters RSE uses for the optimization.</li>
+        </ol>
+        <p class="noteTop" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #20b0e6;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Important Note about Profiles</p>
+        <div>
+            <p class="noteMiddle">Previously, RouteMatch provided for only one set of RSE optimization tuning parameters. Any changes to these parameters replaced the existing values, making it difficult to go back to the original settings. In 5.3.5, these settings were updated and can now be defined with multiple profiles allowing the user to switch back and forth between different setups. </p>
+            <p class="noteBottom">This gives you the ability to modify RSE settings and keep the option to revert back to their original values. Profiles also allow you to apply multiple sets of values to different parts of scheduling optimization. For example, the user could apply one profile that highly favors vehicle efficiency to one set of vehicles, and then apply another profile that is less restrictive for another set of vehicles.</p>
+        </div>
+    </body>
+</html>

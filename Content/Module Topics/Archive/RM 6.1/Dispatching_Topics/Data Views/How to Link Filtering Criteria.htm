@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../../../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <p>
+        </p>
+        <h3>
+            <MadCap:keyword term="How to Link Filtering Criteria Together">&#160;</MadCap:keyword><a name="_Toc447716251"></a>How to Link Filtering Criteria Together</h3>
+        <p>You can use both "AND" and "OR" to link filtering criteria together. You may also add parentheses to further group the conditions. The following rules apply:</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>You cannot have an "OR" before an "AND" in the filter list.</li>
+        </ol>
+        <p>For example:</p>
+        <p>"Agency = 1 OR Vehicle Is Not Specified AND Attendants &gt; 1"</p>
+        <p> is not supported. To fix this situation you can rearrange the order as follows:</p>
+        <p>"Vehicle Is Not Specified AND Attendants &gt; 1 OR Agency = 1"</p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="2">
+            <li>You cannot have an "OR" inside of parenthesis with "AND" outside. To simplify the example, X, Y, Z, etc. will be used in place of actual conditions.</li>
+        </ol>
+        <p>For example:</p>
+        <p>"X AND Y OR (Z AND W AND (A OR B) )"</p>
+        <p>is not supported. To fix this situation you can rearrange the conditions as follows:</p>
+        <p>"(X AND Y) OR (Z AND W AND A ) OR (Z AND W AND B)"</p>
+        <p>There is one very important exception to this restriction. If you have a simple set of conditions where you wish to use "AND" to group several conditions together, and then use "AND" with a single group of "OR" conditions, your filter will be supported. However, it must meet the following criteria:</p>
+        <ol style="list-style-type: lower-alpha;margin-left: 38pt;" start="1">
+            <li>ALL of the ANDs must come before any OR</li>
+            <li>The ONLY parentheses are allowed to group the OR items</li>
+            <li>The OR items must be contained in parentheses</li>
+        </ol>
+        <p>For example:</p>
+        <p>A AND B AND C AND D AND ( X OR Y OR Z OR W)</p>
+        <p>is supported.</p>
+        <p>You should be aware that conditions like "Not Between" generate an "OR" internally.</p>
+        <p>For example:</p>
+        <p>Attendants Not Between 5, 8</p>
+        <p>generates a filter of:</p>
+        <p>Attendants &lt; 5 OR Attendants &gt; 8</p>
+        <p>These conditions can be problematic. For example, the first condition (A) below:</p>
+        <p>A&#160; AND B&#160; AND C</p>
+        <p>would become:</p>
+        <p>(A &lt; 5 OR A &gt;8) AND B AND C</p>
+        <p>This would violate the restrictions listed above. If, however, you moved this to the end of the list, as follows, it would be supported:</p>
+        <p>B AND C AND A</p>
+        <p>would become:</p>
+        <p>B AND C AND (A &lt; 5 OR A &gt;8)</p>
+        <p>If the filter conditions that you create are not supported, an error message displays showing the fully formatted and expanded conditions. Review the error message to find the restrictions and see if you can restructure the order to get the results you want without any of the restrictions. Note that mismatched parentheses ("A AND B ( AND D" ) or invalid values (Attendants = ‘False’) will also cause your filter to fail. Although these restrictions seem a bit complicated, most basic filters that you construct will work as shown below.</p>
+        <p>
+            <img src="../../../../../Resources/Images/Dispatching_Screenshots/How to Link Filtering Criteria.png" style="width: 313px;height: 117px;" />
+        </p>
+        <p>&#160;</p>
+    </body>
+</html>

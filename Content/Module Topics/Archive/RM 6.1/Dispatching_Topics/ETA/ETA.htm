@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../../../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h3>
+            <MadCap:keyword term="ETA">&#160;</MadCap:keyword><a name="_Toc447716299"></a>ETA</h3>
+        <p>The ETA column reflects when the vehicle is expected at the stop location. If the vehicle is running early (ETA (actual) &lt; Stop Time), the ETA column will be set to the Stop Time, since extra time is still available in the schedule for Dispatch to use for other trips without impacting the performance of the currently scheduled Stop. If the vehicle is running late (ETA (actual) &gt; Stop Time), the ETA column will be set to ETA (actual).</p>
+        <p>Why is this? The rider knows their promised window, and even though they may believe that the driver’s target is the front of the window, the driver is aiming for the point that scheduling picked for that stop (the Stop Time). The driver sees the Stop Time and considers this the target, both on paper, if they are using a paper manifest, or in their MDC. If the driver is running ahead of schedule, you will see this in ETA (actual).</p>
+        <p>If the rider calls in, you can communicate the ETA value without letting them know the driver is running early. On the other hand, if you decide to "give away" the slack by changing the Stop Time (or calling the driver if they are using a paper manifest), and then letting the passenger know that the driver is running early, you may make the passenger happy, but you will no longer be able to use the slack for other trips. By letting the slack stay, you also have some safety in the schedule as there may circumstances may occur between the vehicle’s current position and the customer’s stop that would need to consume the slack to stay on-time.</p>
+        <p>In the case where the driver is running late and you have chosen not to change the Stop Time, the pressure stays on the driver. However, when the rider calls in, you would likely tell them that the driver is running late as communicated by the ETA value (which will be the same as the ETA (actual) value).</p>
+        <p>Trips that are canceled do not have an ETA value. Trips that have been completed will have the same ETA value as their Stop Time, which is when the stop was completed (by MDC or Dispatch time edit).</p>
+        <p>&#160;</p>
+    </body>
+</html>

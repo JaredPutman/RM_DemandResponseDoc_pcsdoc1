@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="Normal" Width="800" Height="800" Padding="1in" PageSize="Letter" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" PageType="first" BackgroundImage="none" BackgroundRepeat="no-repeat">
+        <Frame Height="0.9895833in" Right="0px" X="0px" Y="-0.75in" ColumnCount="1" Width="6.5in" Bottom="841px" BackgroundPositionX="right" BackgroundPositionY="top" Anchors="" BackgroundImage="../../Images/RM_logo.png" BackgroundRepeat="no-repeat" Flow="header">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:h2>Release Notes</xhtml:h2>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Height="0.5in" Right="0px" Bottom="-72px" X="0px" Y="9.25in" Width="6.5in" BackgroundImage="none" Anchors="">
+            <Content>
+                <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="text-align:center;">- <MadCap:variable xhtml:name="System.PageNumber" /> -</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="6.5in" Height="8.479167in" X="0px" Y="50px" Right="0px" Bottom="0px" BackgroundImage="none" Anchors="">
+        </Frame>
+        <Frame X="165px" Y="-26px" Width="10px" Height="10px" Flow="decoration0" Right="449px" Bottom="880px" />
+    </Page>
+    <Page Width="800" Height="800" Padding="1in" PageSize="Letter" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" PageType="normal" BackgroundImage="none" BackgroundRepeat="no-repeat">
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="6.5in" Height="8.479167in" X="0px" Y="50px" Right="0px" Bottom="0px" BackgroundImage="none" Anchors="">
+        </Frame>
+        <Frame X="0px" Y="884px" Width="624px" Height="42px" Flow="footer" Right="0px" Bottom="-62px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="text-align:center;">- <MadCap:variable xhtml:name="System.PageNumber" /> -</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

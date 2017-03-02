@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Software Version Tags.6_1_14" MadCap:lastBlockDepth="4" MadCap:lastHeight="1560" MadCap:lastWidth="1186">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2><a name="_Toc447186028"></a>Computed Travel Time</h2>
+        <p>When manually scheduling a trip, your agency may anticipate scheduling it early or late in order to allow the customer to get the ride. The software allows you to easily identify the trips scheduled outside of their time windows by marking them Scheduled Early (SE) or Scheduled Late (SL) with the amount of time (early or late) for that trip’s pickup or drop-off.</p>
+        <p>For instance, notice that the 8:27:12am pickup for Caleb Brown is well outside the requested pickup window of 10:30-11:00, as indicated as scheduled early with “SE=2h 2m 48s”. Also note that Dela Brown’s drop-off at 3:05:00pm is 5 minutes after the drop-off of 3:00:00pm, which is shown as scheduled late, “SL=5m”.</p>
+        <p>
+            <img src="../../../Resources/Images/Scheduling_Screenshots/Computed Travel Time.png" style="visibility: visible;width: 574px;height: 262px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;" />
+        </p>
+        <p>In addition when scheduling trips manually, it is sometimes necessary to provide more or less travel time than the automated system would normally compute via RSE. This excessive or inadequate travel time is now indicated as Projected Early (PE=) or Projected Late (PL=) with its associated times frames.</p>
+        <p>For instance, notice that the pickup for Dela Brown is scheduled at 8:21:25am, but if the vehicle were to leave the garage at the currently scheduled time of 12:00:00am, it is projected to be at this location 6 hours 50 minutes and 54 seconds early (“PE=6h 50m 54s”). Similarly, Andy Dyer’s drop-off at 8:30:00am is projected to be late by 29 minutes 17 seconds (“PL=29 17s”).</p>
+        <p>
+            <img src="../../../Resources/Images/Scheduling_Screenshots/For instance notice that the.png" style="visibility: visible;width: 522px;height: 246px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;" />
+        </p>
+        <p>By allowing and notifying you of these exceptions, your agency will be more flexible in manually adding trips.</p>
+        <h3><a name="_Toc447186029"></a>Key points</h3>
+        <ul>
+            <li>It is possible to have a trip both scheduled early (or late) and projected early (or late). Example would be Caleb Brown’s pickup at 8:27:12, which is both scheduled early (“SE=2h 2m 48s”) and projected to be late (“PL=1h 0m 39s”). This means that as currently scheduled, this trip is over two hours before the promised time window, and unless something changes, there is not adequate travel time to get to this pickup.</li>
+            <li>Unlike ETA, the projected early and late times do not carry over to the next stop, so if a stop is projected to be late, the very next stop could be projected on time or even early. It is simply a comparison of scheduled time vs. travel time for each stop.</li>
+            <li>Trips scheduled outside their time windows are rarely desirable, so any amount of scheduling early or late (SE= or SL=) deserves some evaluation.</li>
+            <li>Insufficient travel time is also undesirable, so any amount for predicted late (PL=) time deserves some evaluation.</li>
+            <li>There is usually some amount of slack time even in the most efficient schedules, but the acceptable amount of excess travel time (slack) depends on your agency. So, vehicles projected to be early should be evaluated if the value for PE= is unacceptably large.</li>
+        </ul>
+    </body>
+</html>

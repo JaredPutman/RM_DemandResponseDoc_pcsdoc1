@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  MasterToc="/Project/TOCs/Release Notes/6.2.27 Release Notes.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/RMMainStyles.css"
+  GlossaryTermConversion="marked"
+  MasterPageLayout="/Content/Resources/PageLayouts/8_5X11/ReleaseNotes.flpgl"
+  DisableAutoSync="false"
+  ConditionTagExpression="include[&quot;Software Version Tags.6_2_20&quot; or &quot;Software Version Tags.6_2_21&quot; or &quot;Software Version Tags.6_2_22&quot; or &quot;Software Version Tags.6_2_23&quot; or &quot;Software Version Tags.6_2_24&quot; or &quot;Software Version Tags.6_2_25&quot; or &quot;Software Version Tags.6_2_26&quot; or General.6_2_26] ">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Glossaries />
+  <PDF
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

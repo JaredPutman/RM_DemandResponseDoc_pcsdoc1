@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1676" MadCap:lastWidth="1186">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2><a name="_Toc447186096"></a>Fixed Route Creation Process Outline</h2>
+        <p>The following shows the process of creating your fixed routes. The next sections detail each of these steps. For more information about each step and the modules you use to create those steps, refer to the section in the RouteMatch 6 Fixed Route Authoring User's Guide for that step. </p>
+        <ul style="list-style-type: disc;margin-left: 18pt;"><b style="list-style-type: disc;">Step 1: Check Geocoding</b>
+        </ul>
+        <p class="IndentStep">Make sure that every fixed route stop address is Geocoded. Geocoding enters an address into the system and allows fixed route objects (such as routes, route patterns, etc.) to use the address.</p>
+        <ul style="list-style-type: disc;margin-left: 18pt;"><b style="list-style-type: disc;">Step 2: Create Route Stops</b>
+        </ul>
+        <p class="IndentStep">Once your addresses are in the system, create stops for each of the addresses that the your vehicles will arrive and depart during the course of the route. </p>
+        <ul style="list-style-type: disc;margin-left: 18pt;"><b style="list-style-type: disc;">Step 3: Create A Route</b>
+        </ul>
+        <p class="IndentStep">A route is a defined area where scheduled service is operated. A route may have several variations of paths traveled and may include multiple patterns. A route begins on the active date chosen in RouteMatch and ends when it is expired in RouteMatch. Its name is published for riders to see.</p>
+        <ul style="list-style-type: disc;margin-left: 18pt;"><b style="list-style-type: disc;">Step 4: Create a Route Pattern</b>
+        </ul>
+        <p class="IndentStep">A route pattern is a sequence of stops and/or time points used by one or more trips. A route pattern begins on the active date chosen in RouteMatch and ends when it is expired in RouteMatch. It does not have to operate on every day of the week.</p>
+        <ul style="list-style-type: disc;margin-left: 18pt;"><b style="list-style-type: disc;">Step 5: Add Stop Order to a Route Pattern</b>
+        </ul>
+        <p class="IndentStep">After creating the Route Pattern (in Step 4), you must add at least two stops in order to save the Route Pattern.</p>
+        <ul style="list-style-type: disc;margin-left: 18pt;"><b style="list-style-type: disc;">Step 6: Create a Land Route</b>
+        </ul>
+        <p class="IndentStep">Land routes appear as colored lines on top of the service area maps, and they represent the path the bus follows. You can associate Route Patterns with a Land Route.</p>
+        <ul style="list-style-type: disc;margin-left: 18pt;"><b style="list-style-type: disc;">Step 7: Create Trips</b>
+        </ul>
+        <p class="IndentStep">Up until now, we were working in the Fixed Route Authoring module. Now, we need to add time-based information in the Fixed Route Scheduling module. The first is trips. A trip is the Route Pattern implemented at the first trip-stop’s time. You can create multiple trips for the Route Pattern. This is useful if you have a route pattern that is repeated several times a day, for example.</p>
+        <ul style="list-style-type: disc;margin-left: 18pt;"><b style="list-style-type: disc;">Step 8: Add Stop Times to the Trip</b>
+        </ul>
+        <p class="IndentStep">Once you have created a trip, you need to add the stop times.</p>
+        <ul style="list-style-type: disc;margin-left: 18pt;"><b style="list-style-type: disc;">Step 9: Create Runs</b>
+        </ul>
+        <p class="IndentStep">Runs may contain multiple routes or individual trips from many different routes. Runs cannot be deleted.</p>
+        <ul style="list-style-type: disc;margin-left: 18pt;"><b style="list-style-type: disc;">Step 10: Create Fixed Route Breaks</b>
+        </ul>
+        <p class="IndentStep">Add breaks for your drivers or vehicles to the route patterns. </p>
+        <ul style="list-style-type: disc;margin-left: 18pt;"><b style="list-style-type: disc;">Step 11: Schedule Trips to Runs</b>
+        </ul>
+        <p class="IndentStep">Add unscheduled trips to runs. This adds those trips to your schedule. </p>
+        <ul style="list-style-type: disc;margin-left: 18pt;"><b style="list-style-type: disc;">Step 12: Post</b>
+        </ul>
+        <p>You can skip this step if your agency uses automatic posting of fixed route data. Posting allows route and run information to be active and available in Dispatching for a day or range of days. You cannot post an unpublished route pattern. You can post by run or post for a day or range of days.</p>
+    </body>
+</html>

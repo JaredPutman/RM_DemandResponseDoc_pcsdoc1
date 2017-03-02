@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TOC"
+    Link="/Content/TOC Topic.htm" />
+  <TocEntry
+    Title="6.2.26 Release Notes Intro"
+    Link="/Content/Other Topics/6.2.26 Topics/6.2.26 Release Notes Intro.htm"></TocEntry>
+  <TocEntry
+    Title="Quick Reports"
+    Link="/Content/Other Topics/6.2.26 Topics/Quick Reports.htm"></TocEntry>
+  <TocEntry
+    Title="Bi-Weekly Standing Orders"
+    Link="/Content/Module Topics/Trips_Topics/Creating Trips/Bi Weekly Standing Orders.htm" />
+  <TocEntry
+    Title="Requested Trip Data Summary"
+    Link="/Content/Module Topics/Trips_Topics/Other Key Features/Requested Trip Data Summary.htm" />
+  <TocEntry
+    Title="Event Module Tabs"
+    Link="/Content/Other Topics/6.2.26 Topics/Event Module Tabs.htm" />
+  <TocEntry
+    Title="Favorite Addresses"
+    Link="/Content/Other Topics/6.2.26 Topics/Favorite Addresses.htm" />
+  <TocEntry
+    Title="Excessive Dwell Time Alert"
+    Link="/Content/Other Topics/6.2.26 Topics/Excessive Dwell Time Alert.htm" />
+  <TocEntry
+    Title="ETA Notifications"
+    Link="/Content/Other Topics/6.2.26 Topics/ETA Notifications.htm" />
+  <TocEntry
+    Title="Verification Module Enhancements"
+    Link="/Content/Other Topics/6.2.26 Topics/Verification Module Enhancements.htm" />
+  <TocEntry
+    Title="6.2.26 Cases"
+    Link="/Content/Other Topics/6.2.26 Topics/6.2.26 Cases.htm" />
+</CatapultToc>

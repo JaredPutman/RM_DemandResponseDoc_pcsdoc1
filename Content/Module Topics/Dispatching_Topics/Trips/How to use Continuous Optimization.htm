@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2967" MadCap:lastWidth="1117">
+    <head><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h3>
+            <MadCap:keyword term="How to use Continuous Optimization: Semi-Automatic Mode">&#160;</MadCap:keyword><a name="_Toc447716293"></a>How to use Continuous Optimization: Semi-Automatic Mode</h3>
+        <p>If Continuous Optimization is set to fully automatic (in the Settings module), the proposed schedule changes will be accepted automatically and the following instructions are not necessary. The instructions below are for the semi-automatic mode of Continuous Optimization. See the RM#6.1 Administrator's Guide for more information.</p>
+        <p>Step 1: Add columns to existing Dispatching data view or create new data view.</p>
+        <p>There are numerous columns for Continuous Optimization; all of these columns begin with the Continuous Optimization Proposal prefix (COP_). There are a few that will be most helpful to a dispatcher because they show the important information about any proposed schedule: </p>
+        <p>COP_Proposed Vehicle, COP_Proposed Run Name, COP_Proposed Stop Time. To see the information that Continuous Optimization used to create its proposals, you can also add the following columns: COP_Basis Vehicle, COP_Basis Run Name, COP_Basis Stop Time.</p>
+        <p><sub><img src="../../../Resources/Images/Dispatching_Screenshots/How to use Continuous Optimization.png" style="width: 393px;height: 348px;" /></sub>
+        </p>
+        <p>Step 2: Add data view formatting, if desired.</p>
+        <p>You can use the COP_Proposed Validity Indicator field to format your data view. The COP_Proposed Validity Indicator field shows whether or not a new schedule has been proposed, the validity of the proposed schedule if one has been proposed, or whether the trip has been rescheduled. A proposed schedule may not be valid if another user has made changes to a trip between the time that Continuous Optimize began running and when the proposal was viewed in Dispatching. To differentiate between these states, the COP_Proposed Validity Indicator field has four possible values:</p>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li style="list-style-type: disc;">None – There is no proposed scheduling change for this trip.</li>
+            <li style="list-style-type: disc;">Optimized – There is a proposed change, and it appears to still be valid.</li>
+            <li style="list-style-type: disc;">Suspect – There were changes to the trip that might affect how the trip should be scheduled since Continuous Optimize began running (for example, attendant count, address, load/unload time, etc.), but these did not include changes to the scheduled vehicle or scheduled pickup/dropoff times.</li>
+            <li style="list-style-type: disc;">Rescheduled – There were changes to the trip that included either changing the scheduled vehicle or scheduled pickup/dropoff times.</li>
+            <li style="list-style-type: disc;">By assigning different formatting to each of these values, you can format your data view for ease of use.</li>
+        </ul>
+        <p><sub><img src="../../../Resources/Images/Dispatching_Screenshots/Step 2 Add data view formatting.png" style="width: 454px;height: 454px;" /></sub>
+        </p>
+        <p>Step 3: Look for proposed schedule changes, using the COP_Proposed columns and formatting that you added to your data view.</p>
+        <p><sub><img src="../../../Resources/Images/Dispatching_Screenshots/Step 3 Look for proposed schedule.png" style="width: 516px;height: 266px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;" /></sub>
+        </p>
+        <p>Step 4: Select the trip(s) that you want to apply the proposals for. You can select more than one trip at a time by clicking the trips while holding down the Ctrl key on your keyboard.</p>
+        <p>Step 5: Click the Proposals... button on the Dispatching toolbar and select one of the options.</p>
+        <p>
+            <img src="../../../Resources/Images/Dispatching_Screenshots/Step 3 Look for proposed schedule_1.png" style="width: 308px;height: 68px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;" />
+        </p>
+        <p>A window pops up displaying how many trips will become scheduled, how many will be unchanged, how many have been changed (but not the scheduled vehicle or scheduled pickup/dropoff times) since optimization was run, and how many have been rescheduled since optimization was run. For trips in the last two categories, the schedule that is proposed may no longer be valid. You should check that the proposed schedule is still valid for these trips.</p>
+        <p>The window also contains a list of trips that will change.</p>
+        <p>
+            <img src="../../../Resources/Images/Dispatching_Screenshots/The window also contains a.png" style="width: 419px;height: 284px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;" />
+        </p>
+        <p>Step 6: Click OK to accept the proposed schedules. Click Cancel to return without accepting.</p>
+        <p>Step 7: Repeat as needed for the remaining trips with proposed schedules or the next time Continuous Optimization suggests proposals, which is set in the Settings module.</p>
+    </body>
+</html>

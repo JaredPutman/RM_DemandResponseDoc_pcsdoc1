@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../../../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h3>
+            <MadCap:keyword term="Setting up a Flashing Tab">&#160;</MadCap:keyword><a name="_Toc447716312"></a>Setting up a Flashing Tab</h3>
+        <p>When setting up the formatting of a data row for Dispatching, you may set the tab of your data view to flash. Whenever any row of data matches any condition for which a "Flash" option has been selected, the tab for that view will flash on and off. To set up flashing tabs, refer to the procedure "Add Data View Formatting" under the section Create a Data View earlier in this guide.</p>
+        <p class="noteTop">Note</p>
+        <div>
+            <p class="noteBottom">There are two performance impacts to consider when using the Flashing Tab setting:</p>
+            <p class="noteBottom">1) Each view with one or more formatting criteria that includes a Flashing Tab option will take a little longer to refresh in order to handle the additional check. This will have a minor impact on your refresh, but it will have an impact.</p>
+            <p class="noteBottom">2) When the Dispatching module is refreshed (either by an auto-refresh or by a user selecting the "refresh" action) every view that has at least one formatting setting that includes a Flashing Tab will be refreshed. Normally, only the view shown is refreshed and when you select a new tab, the newly selected view is refreshed. Multiple views using the Flashing Tab setting can significantly impact performance. </p>
+            <p class="noteBottom">For example, if you are viewing the Whiteboard and you have two custom views using the Flashing Tab feature, a refresh will have to refresh all three views at once instead of just the single Whiteboard view. This is necessary so that the tab can begin to flash if a change is detected which can only happen if that view is refreshed.</p>
+            <p class="noteBottom">The Flashing Tab feature is very useful, but it does come with some performance impacts so it should be used appropriately.</p>
+        </div>
+    </body>
+</html>

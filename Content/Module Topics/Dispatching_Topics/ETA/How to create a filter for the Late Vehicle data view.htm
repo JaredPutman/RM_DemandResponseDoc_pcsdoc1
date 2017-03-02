@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="699" MadCap:lastWidth="1198">
+    <head>
+    </head>
+    <body>
+        <h1>How to create a filter for the Late Vehicle data view</h1>
+        <ol>
+            <li>On the Data View Properties dialog, click the Filters/Formatting tab.</li>
+            <li>Click Add in the Filters section to have the view only the trips that match the criteria you want to show in the new view.</li>
+            <li>Select Current Manifest Slack in the Field Name drop-down list.</li>
+            <li>Select Less Than Or Equal To in the Condition drop-down. This is due to the fact that lateness is determined by the amount of slack in the schedule. A negative number indicates more lateness and mathematically, the later number is "less than" a number that is not as late.</li>
+            <li>Enter an amount in the Value[1] field. This indicates the number of minutes you consider a vehicle late. In our example, we use -21.</li>
+            <li>Click Save and Return to return to the Data View Properties dialog.</li>
+            <li>Click Add again to add another condition that will only show trips that are not marked complete.</li>
+            <li>In the Field Name drop-down list, select Completed.</li>
+            <li>In the Condition drop-down, select Equals.</li>
+            <li>In the Value [1] box, enter 0. This means that the trips have not been completed.</li>
+            <li>Click Save and Return to return to the Data View Properties dialog.</li>
+        </ol>
+    </body>
+</html>

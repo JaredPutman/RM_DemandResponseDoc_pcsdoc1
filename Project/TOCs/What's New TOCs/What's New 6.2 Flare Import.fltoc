@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="RSE Profiles"
+    Link="/Content/Other Topics/What's New 6.2 Flare Import/RSE Profiles.htm" />
+  <TocEntry
+    Title="Cluster Analysis"
+    Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Cluster Analysis.htm" />
+  <TocEntry
+    Title="Fill Scheduling Gaps"
+    Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Fill Scheduling Gaps.htm" />
+  <TocEntry
+    Title="Invalid Schedule Optimization Results"
+    Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Invalid Schedule Optimization.htm" />
+  <TocEntry
+    Title="Minimize Lateness/Earliness"
+    Link="/Content/Other Topics/What's New 6.2 Flare Import/Minimize Lateness Earliness.htm" />
+  <TocEntry
+    Title="RMLink Enhancements"
+    Link="/Content/Other Topics/What's New 6.2 Flare Import/RMLink Enhancements.htm" />
+  <TocEntry
+    Title="Remote Logon/Logoff"
+    Link="/Content/Module Topics/Dispatching_Topics/Drivers/Remote Logon Logoff.htm" />
+  <TocEntry
+    Title="Display Vehicle Speed"
+    Link="/Content/Module Topics/Dispatching_Topics/AVL Display/Display Vehicle Speed.htm" />
+  <TocEntry
+    Title="Remove Conditional Eligibilities"
+    Link="/Content/Other Topics/What's New 6.2 Flare Import/Remove Conditional Eligibilities.htm" />
+  <TocEntry
+    Title="Negotiate Trip Times"
+    Link="/Content/Other Topics/What's New 6.2 Flare Import/Negotiate Trip Times.htm" />
+  <TocEntry
+    Title="Expired Funding Source"
+    Link="/Content/Other Topics/What's New 6.2 Flare Import/Expired Funding Source.htm" />
+  <TocEntry
+    Title="Search by Run"
+    Link="/Content/Other Topics/What's New 6.2 Flare Import/Search by Run.htm" />
+  <TocEntry
+    Title="Keyboard Navigation"
+    Link="/Content/Other Topics/What's New 6.2 Flare Import/Keyboard Navigation.htm" />
+  <TocEntry
+    Title="Filter by Exception"
+    Link="/Content/Other Topics/What's New 6.2 Flare Import/Filter by Exception.htm" />
+  <TocEntry
+    Title="Strikethrough No-Show Trips"
+    Link="/Content/Module Topics/Verification_Topics/Trip Verification/Strikethrough No Show Trips.htm" />
+</CatapultToc>

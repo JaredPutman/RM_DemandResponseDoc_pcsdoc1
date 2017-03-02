@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="974" MadCap:lastWidth="1198">
+    <head>
+    </head>
+    <body>
+        <h1>How to set Formatting Conditions for the Late Vehicle data view</h1>
+        <ol>
+            <li>While on the Data View Properties screen, click Add in the Formatting Conditions section.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Dispatching_Screenshots/Formatting Condition Properties.png" class="ImageStep" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Select Current Manifest Slack in the Field Name drop-down list.</li>
+            <li>Select Less Than Or Equal To in the Condition drop-down. This is due to the fact that lateness is determined by the amount of slack in the schedule. A negative number indicates more lateness and mathematically, the later number is "less than" a number that is not as late.</li>
+            <li>Enter an amount in the Value[1] field. This indicates the number of minutes you consider a vehicle late. In our example, we use -21.</li>
+            <li>Select the Flash Tab option to have the tab flash when a new item is added. This is useful when you are viewing a different tab and want to be alerted when a vehicle is added to this view.</li>
+            <li>Optionally, you can add additional formatting conditions to differentiate different levels of "lateness" in your view. For example, if you use -21 for a late vehicle to appear on the view, you can add -42 for a "very late" and make the item bold on the list.</li>
+            <li>Click Save and Return to return to the Data View Properties dialog.</li>
+        </ol>
+    </body>
+</html>

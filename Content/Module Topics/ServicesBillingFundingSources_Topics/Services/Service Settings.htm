@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="2580" MadCap:lastWidth="1415">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h4><a name="_Toc447795111"></a>Service Settings</h4>
+        <p class="noteTop" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #0175c0;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">Warning</p>
+        <p class="noteBottom">The configurations you make with these settings can have a significant effect on RSE. Please contact RouteMatch if you require assistance.</p>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1"><b>Field</b>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1"><b>Description</b>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p><b>Trip Length Restriction Type</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Determine how the system should limit the length of time a customer can spend on a trip. There are two options:</p>
+                        <ul style="list-style-type: disc;margin-left: 10pt;">
+                            <li style="list-style-type: disc;">By Specific Time – Limit the trip length by a specific amount of minutes. This option will activate the Maximum Trip Time field.</li>
+                        </ul>
+                        <ul style="list-style-type: disc;margin-left: 10pt;">
+                            <li style="list-style-type: disc;">By Adjusted Travel Time – Limit the trip length by applying a multiplier. This option will activate the Trip Length Factor field.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><b>Maximum Trip Time (In Minutes)</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>If you decide to use the By Specific Time option for the trip length restriction, then define the maximum number of minutes a customer can spend on a trip.</p>
+                        <p>For example, if you enter "90" into this field, customers using this service cannot have trip lengths exceeding this 1.5 hour window.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p><b>Trip Length Factor</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>If you decide to use the By Adjusted Travel Time option for the trip length restriction, enter a multiplier in this field that applies to the calculated trip length to define the maximum amount of time a customer can spend on a trip.</p>
+                        <p>For example, if a customer’s calculated trip length is 15 minutes, and this option is set to 3, the customer’s trip cannot exceed 45 minutes (15 x 3=45).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><b>Allow Scheduling to Runs Using Optimizer</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Allow RSE to schedule this service’s trips to runs. This setting has two options:</p>
+                        <ul style="list-style-type: disc;margin-left: 10pt;">
+                            <li style="list-style-type: disc;">Yes – Include runs for optimization.</li>
+                        </ul>
+                        <ul style="list-style-type: disc;margin-left: 10pt;">
+                            <li style="list-style-type: disc;">No – Do not include runs for optimization.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p><b>Default Negotiated Request PU Time Window (Min. Before)</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>The number of minutes before a customer’s negotiated time that RSE is allowed to schedule their pickup.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><b>Default Negotiated Request PU Time Window (Min. After)</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>The number of minutes after a customer’s negotiated time that RSE is allowed to schedule their pickup.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p><b>Default Negotiated Request DO Time Window (Min. Before)</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>The number of minutes before a customer’s negotiated time that RSE is allowed to schedule their drop-off.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><b>Default Negotiated Request DO Time Window (Min. After)</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>The number of minutes after a customer’s negotiated time that RSE is allowed to schedule their drop-off.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p><b>Maintain Initial and Negotiated Request Times Separately</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>If your agency negotiates trip times with customers, set this to Yes to have the system keep track of both the customer’s requested and negotiated trip times.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><b>Default Initial Request PU Time Window (Min. Before)</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>The number of minutes before a customer’s requested time that RSE is allowed to schedule their pickup.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p><b>Default Initial Request PU Time Window (Min. After)</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>The number of minutes after a customer’s requested time that RSE is allowed to schedule their pickup.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><b>Default Initial Request DO Time Window (Min. Before)</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>The number of minutes before a customer’s requested time that RSE is allowed to schedule their drop-off.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p><b>Default Initial Request DO Time Window (Min. After)</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>The number of minutes after a customer’s requested time that RSE is allowed to schedule their drop-off.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><b>Trip Booking Horizon Limit (in Days)</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>The number of days in advance to allow a customer to book a trip. Configuring this to 0 leaves the limit open-ended so customers can book trips at any time.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p><b>Trip Booking Horizon Limit Requires Supervisory Override</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>If set to yes, an administrator must enter their password to approve a customer’s trip if they are requesting it outside the booking horizon limit.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><b>ADA Corridor Required</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Select whether an ADA corridor applies to the trips of this service.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p><b>ADA Corridor Requires Supervisory Override</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>If set to yes, an administrator must approve a customer’s trip if it will take place outside the ADA corridor.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p><b>Timing Preference(s)</b>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p>Click the ellipsis and select the various timing preferences that apply to this service in the Trips module. This setting has five options:</p>
+                        <ul style="list-style-type: disc;margin-left: 10pt;">
+                            <li style="list-style-type: disc;">Drop-off – The customer has a specific time when they need to be dropped off, but their pickup time is flexible.</li>
+                        </ul>
+                        <ul style="list-style-type: disc;margin-left: 10pt;">
+                            <li style="list-style-type: disc;">Pickup – The customer has a specific time when they need to be picked up, but their drop-off time is flexible.</li>
+                        </ul>
+                        <ul style="list-style-type: disc;margin-left: 10pt;">
+                            <li style="list-style-type: disc;">Pickup With Drop-off at Appointment Time – The customer has a specific time when they need to be picked up and dropped off in order to make an appointment. Use this option only when it is necessary as the extra requirements give RSE fewer options for scheduling the trip.</li>
+                        </ul>
+                        <ul style="list-style-type: disc;margin-left: 10pt;">
+                            <li style="list-style-type: disc;">Drop-off Computing Pickup Time – Select this preference when negotiating trip times to define the customer’s desired drop-off time and have RouteMatch automatically calculate their pickup time. Use this option only when it is necessary as the extra requirements give RSE fewer options for scheduling the trip.</li>
+                        </ul>
+                        <ul style="list-style-type: disc;margin-left: 10pt;">
+                            <li style="list-style-type: disc;">Pickup Computing Drop-off Time – Select this preference when negotiating trip times to define the customer’s desired pickup time and have RouteMatch automatically calculate their drop-off time. Use this option only when it is necessary as the extra requirements give RSE fewer options for scheduling the trip.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

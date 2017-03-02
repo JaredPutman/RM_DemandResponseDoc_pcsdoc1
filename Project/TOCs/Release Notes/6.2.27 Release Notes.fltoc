@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="6.2.27 Release Notes Intro"
+    Link="/Content/Other Topics/6.2.27 Topics/6.2.27 Release Notes Intro.htm">
+    <TocEntry
+      Title="Bi-Directional Communication"
+      Link="/Content/Other Topics/6.2.27 Topics/Bi-Directional Communication.htm" />
+    <TocEntry
+      Title="Quick Reports"
+      Link="/Content/Other Topics/6.2.27 Topics/Quick Reports.htm" />
+    <TocEntry
+      Title="Addresses Module"
+      Link="/Content/Other Topics/6.2.27 Topics/Addresses Module.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="6.2.27 Cases"
+    Link="/Content/Other Topics/6.2.27 Topics/6.2.27 Cases.htm"></TocEntry>
+  <TocEntry
+    Title="RouteMatch Customer Support"
+    Link="/Content/RouteMatch Customer Support.htm" />
+</CatapultToc>

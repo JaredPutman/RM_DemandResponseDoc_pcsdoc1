@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="Demand Response"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="Customers"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="Dispatching"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="Scheduling"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="Services"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="Trips"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="Verification"
+    Comment="" />
+</CatapultConditionTagSet>

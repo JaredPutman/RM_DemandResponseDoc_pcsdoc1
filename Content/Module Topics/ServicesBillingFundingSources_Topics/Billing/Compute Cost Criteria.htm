@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="3536" MadCap:lastWidth="1181">
+    <head>
+        <link href="../../../Resources/TableStyles/Simple.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/DR_MainStyles_1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">
+            <MadCap:keyword term="Compute Cost Criteria">&#160;</MadCap:keyword><a name="_Ref429663597"></a>Compute Cost Criteria</h2>
+        <p>Define the criteria that determine which trips, funding sources, etc. apply to this billing rule. You can either select a previously created set of criteria from the drop-down list, or create a new set by completing the following steps:</p>
+        <p>
+            <img src="../../../Resources/Images/Services_FundingSources_BillingRules_Screenshots/BillingRuleComputeNonCustomerpay.jpg" />
+        </p>
+        <ol>
+            <li>Click the Create New Criteria button to open the Criteria Editor screen.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Services_FundingSources_BillingRules_Screenshots/BillingRuleCriteriaEditor.jpg" class="ImageStep" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>From here, enter a Name for this criteria set (Required).</li>
+            <li>Enter a Description for this criteria set. What you enter here displays in the Description tab of the cost criteria section of the Billing screen, so it should explain the criteria’s intended use.</li>
+            <li>In the Kind field, select a condition that must be met for these criteria to apply. For example, these criteria can be set to apply to verified trips, dispatched trips, etc.</li>
+            <li>Click the New button to open the Criteria Row Editor. The criteria you create here allow you to define which trips and runs apply to this billing rule.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Services_FundingSources_BillingRules_Screenshots/BillingRuleCriteriaRowEditor.jpg" class="ImageStep" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>On the Criteria Row Editor screen, select to use the standard or advanced mode of this screen. The process of creating criteria in advanced mode is covered later in this chapter.</li>
+            <li>Select a parameter from the list on the left. For runs, there are only four choices on this list.</li>
+            <li>Specify how this parameter compares with its value from the drop-down list. For example, the chosen parameter can be equal to, greater than, less than, etc. in relation to the entered value.</li>
+            <li>Determine whether this is a constant value, global value, or SQL language.</li>
+            <li>Enter or select a value for this parameter.</li>
+            <li>Click Save and Continue to create more rows.</li>
+            <li>When all of your needed criteria have been set. Click Save and Return to close the window and return to the Billing module.</li>
+        </ol>
+        <p class="noteTop" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #0175c0;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+        <p class="noteBottom">Make sure that criteria do not overlap. If they do overlap, an error displays in the Verification module and the customer pay on the manifest is $99,999.99.</p>
+        <h4 class="Heading4">
+            <MadCap:keyword term="Criteria Editor Examples">&#160;</MadCap:keyword>Criteria Editor Examples</h4>
+        <p>Here are some examples of billing rule conditions and their corresponding criteria:</p>
+        <ol style="list-style-type: lower-alpha;margin-left: 36pt;" start="1">
+            <li>This rule applies to elderly customers:</li>
+        </ol>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/Simple.css');" class="TableStyle-SimpleWithPadding" cellspacing="0">
+            <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1"><b>Parameter</b>
+                </td>
+                <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1"><b>How to Compare</b>
+                </td>
+                <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1"><b>Compare With</b>
+                </td>
+            </tr>
+            <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">
+                    <p>Elderly</p>
+                </td>
+                <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">
+                    <p>Equals</p>
+                </td>
+                <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1">
+                    <p>True (Constant)</p>
+                </td>
+            </tr>
+        </table>
+        <ol style="list-style-type: lower-alpha;margin-left: 36pt;" start="2">
+            <li>This rule applies to trips greater than ten miles:</li>
+        </ol>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/Simple.css');" class="TableStyle-SimpleWithPadding" cellspacing="0">
+            <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1"><b>Parameter</b>
+                </td>
+                <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1"><b>How to Compare</b>
+                </td>
+                <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1"><b>Compare With</b>
+                </td>
+            </tr>
+            <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">
+                    <p>Miles</p>
+                </td>
+                <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">
+                    <p>Greater Than</p>
+                </td>
+                <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1">
+                    <p>10 (Constant)</p>
+                </td>
+            </tr>
+        </table>
+        <ol style="list-style-type: lower-alpha;margin-left: 36pt;" start="3">
+            <li>This rule applies to the Ride Safe funding source:</li>
+        </ol>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/Simple.css');" class="TableStyle-SimpleWithPadding" cellspacing="0">
+            <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1"><b>Parameter</b>
+                </td>
+                <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1"><b>How to Compare</b>
+                </td>
+                <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1"><b>Compare With</b>
+                </td>
+            </tr>
+            <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">
+                    <p>Funding Source</p>
+                </td>
+                <td class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">
+                    <p>Equals</p>
+                </td>
+                <td class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1">
+                    <p>Ride Safe (Constant)</p>
+                </td>
+            </tr>
+        </table>
+        <p>If you were to combine these criteria, the billing rule would apply to all elderly customers taking a trip longer than ten miles on the Ride Safe funding source.</p>
+        <h4 class="Heading4">
+            <MadCap:keyword term="How to Use the Advanced Option to Create Criteria">&#160;</MadCap:keyword>How to Use the Advanced Option to Create Criteria</h4>
+        <p>If you use the Advanced option, you must enter SQL language to create the criteria from scratch. You should attempt this only if you are familiar with Microsoft SQL and can use the language correctly. Contact RouteMatch if you require assistance.</p>
+        <p>
+            <img src="../../../Resources/Images/Services_FundingSources_BillingRules_Screenshots/BillingRuleCriteriaRowEditorAdvanced.jpg" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>After you click the Create New Row button and open the Criteria Row Editor screen, select the Advanced option.</li>
+            <li>On the Advanced screen, enter the SQL language for the new criterion.</li>
+            <li>Click the blue check-mark button to verify the SQL statement.</li>
+            <li>Save the criteria when you have entered all the necessary information. You do have the option to combine the criteria you create under the advanced option with any criteria created under the standard option.</li>
+        </ol>
+        <p class="ExampleHead">Example</p>
+        <p class="ExampleMiddleSection">Create a criteria with the following: Funding Source = Medicaid</p>
+        <p class="ExampleMiddleSection">Then, switch over to the Advanced option and enter the following SQL language:</p>
+        <p class="ExampleMiddleSection">(DropOffAddress IN (‘10375 E HARVARD AVE’,’ 9900 E ILIFF AVE’) OR PickUpAddress IN (‘10375 E HARVARD AVE’,’ 9900 E ILIFF AVE’))</p>
+        <p class="Example">This creates cost criteria that applies to trips with the Medicaid funding source and has a pickup or a dropoff at 10375 East Harvard Avenue.</p>
+    </body>
+</html>

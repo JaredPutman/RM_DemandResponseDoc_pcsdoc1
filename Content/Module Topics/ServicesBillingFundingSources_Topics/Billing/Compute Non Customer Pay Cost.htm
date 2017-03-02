@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="3019" MadCap:lastWidth="1185">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/DR_MainStyles_1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2 class="Heading2">
+            <MadCap:keyword term="Compute Non-Customer Pay Cost">&#160;</MadCap:keyword><a name="_Ref429663547"></a>Compute Non-Customer Pay Cost</h2>
+        <p>These fields determine how much a customer’s funding source is expected to pay when they take a trip under this billing rule.</p>
+        <p>
+            <img src="../../../Resources/Images/Services_FundingSources_BillingRules_Screenshots/BillingRuleComputeNonCustomerpay.jpg" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="1">
+            <li>Select an option for how the system should compute non-customer pay cost. The selection you make here determines the parameters you then need to define in the grid below. You have the following cost computing options:</li>
+        </ol>
+        <ul style="list-style-type: disc;margin-left: 54pt;">
+            <li style="list-style-type: disc;"><b>Flat Fee Only</b> – Charge a fixed amount for trips regardless of the miles or length of time traveled.</li>
+            <li style="list-style-type: disc;"><b>Flat Fee Only (Full Control)</b> – This choice has the same parameters as the Flat Fee Only option, but you can override the corresponding funding sources’ Bill Attendant, Bill Guest, and Bill No Show settings.</li>
+            <li style="list-style-type: disc;"><b>Individual Miles and Explicit Time Interval </b>– The amount charged for this billing rule is based on the miles and the exact length of time (down to minutes) traveled.</li>
+            <li style="list-style-type: disc;"><b>Individual Miles and Explicit Time Interval (Full Control)</b> – This choice has the same parameters as the Individual Miles and Explicit Time Interval option, but you can override the corresponding funding sources’ Bill Attendant, Bill Guest, and Bill No Show settings.</li>
+            <li style="list-style-type: disc;"><b>Individual Miles and Hours</b> – The amount charged for this billing rule is based on the miles and hours traveled.</li>
+            <li style="list-style-type: disc;"><b>Individual Miles and Hours (Full Control)</b> – This choice has the same parameters as the Individual Miles and Hours option, but you can override the corresponding funding sources’ Bill Attendant, Bill Guest, and Bill No Show settings.</li>
+            <li style="list-style-type: disc;"><b>Individual Miles and Hours with Deadhead and Wait Time</b> – The amount charged for this billing rule is based on the miles and hours traveled. This option also allows you to apply extra charges for deadhead and wait time.</li>
+            <li style="list-style-type: disc;"><b>Individual Miles with Independent Guest and Attendant Charges</b> – The amount charged for this billing rule is based on the miles traveled. This option also allows to apply extra charges to guests and attendants.</li>
+            <li style="list-style-type: disc;"><b>Shared Ride</b> – All passengers share the cost of the trip, which is based on the miles traveled. This option also allows for extra charges to be applied to guests and attendants.</li>
+            <li style="list-style-type: disc;"><b>Master Trip Cost Function</b> – This billing rule is accessible from the Master Cost Billing Rule Attributes screen.</li>
+            <li style="list-style-type: disc;"><b>Shared Miles</b> – All the passengers share the cost of the trip, which is based on the miles traveled.</li>
+            <li style="list-style-type: disc;"><b>Shared Miles and Hours</b> – All passengers share the cost of the trip, which is based on the miles and hours traveled.</li>
+            <li style="list-style-type: disc;"><b>Shared Miles and Hours (Full Control)</b> – This choice has the same parameters as Shared Miles and Hours, but you can override the corresponding funding sources’ Bill Attendant, Bill Guest, and Bill No Show settings.</li>
+            <li style="list-style-type: disc;"><b>Run Charge</b> – This option allows you to define the various charges that can apply to runs. For example, the run fee, revenue hours/miles, service hours/miles, etc. can all be defined here. When creating a billing rule for runs, this is the only selectable option.</li>
+        </ul>
+        <p>The Description tab displays a definition of the computation and its corresponding parameters.</p>
+        <p>
+            <img src="../../../Resources/Images/Services_FundingSources_BillingRules_Screenshots/BillingRuleDescriptionTab.jpg" />
+        </p>
+        <p class="noteTop" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #0175c0;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">&#160;</p>
+        <p class="noteBottom">If you select an option that is not Full Control, the corresponding funding source must have the Bill Attendants, Bill Guest, and Bill No Show options defined.</p>
+        <ol style="list-style-type: decimal;margin-left: 35pt;" start="3">
+            <li>In the How Cost Computed field, select a method for computing the non-customer pay cost. This information displays in the Verification module:</li>
+        </ol>
+        <ul style="list-style-type: disc;margin-left: 54pt;">
+            <li style="list-style-type: disc;"><b>Use Current Billing Rule Group</b> – The non-customer pay cost is calculated using the name of the billing rule’s group.</li>
+            <li style="list-style-type: disc;"><b>Use Current Billing Rule Name</b> – The non-customer pay cost is calculated using the name of the billing rule’s name.</li>
+            <li style="list-style-type: disc;"><b>Use Trip’s Funding Source and Override</b> – The non-customer pay cost is calculated using the name of the billing rule’s funding source and override.</li>
+        </ul>
+        <ol style="list-style-type: decimal;margin-left: 35pt;" start="4">
+            <li>Define the parameters of how this billing rule computes non-customer pay cost. The parameters appear in the Detail tab, which contains the following columns:</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Services_FundingSources_BillingRules_Screenshots/BillingRuleParameters.jpg" class="ImageStep" />
+        </p>
+        <ul style="list-style-type: disc;margin-left: 54pt;">
+            <li style="list-style-type: disc;"><b>Parameter Name</b> – The name of the parameter associated with the selected method for computing cost.</li>
+            <li style="list-style-type: disc;"><b>Parameter Type</b> – The parameter’s corresponding classification.</li>
+            <li style="list-style-type: disc;"><b>Value Kind </b>– The data type associated with the parameter’s value. The available options are fully explained in the next section.</li>
+            <li style="list-style-type: disc;"><b>Value</b> – The definition of the parameter. For example, Flat Fee = 5.00 means that the flat fee for this billing rule is $5.00.</li>
+        </ul>
+        <ol style="list-style-type: decimal;margin-left: 36pt;" start="5">
+            <li>For each parameter, select a value kind and define it’s value.</li>
+        </ol><b>Value Kinds</b>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows"><b>Value Kind</b>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p><b>Definition</b>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p>Column </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p>The value is drawn from your RouteMatch database. Enter the name of the specific table and column of the field from the Trips module that contains this information.</p>
+                    <p>These values must follow this format: &lt;TableName&gt;.&lt;ColumnName&gt;</p>
+                    <p>For example: tblTripsActual.Cancelled</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p>Constant </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p>The value applies to all parts of its assigned parameter. For example, you can use this option to apply a $3.00 charge to every trip that falls under this billing rule.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p>SQL </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p>The value is defined with database-specific language.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p>Local Value </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p>The value is valid only within the scope of the corresponding parameter. Click the ellipsis (…) to define the value and the corresponding date range of when the parameter applies.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p>Global Value </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p>The value is a pre-defined option created in the Global Parameter Manager screen. Global Values can be used throughout the Billing module. The process for creating global values is explained later in this guide.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p>System </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p>The value is chosen from a list of options that is predefined in RouteMatch.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p>Alias Column </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p>The value is made up of a computation of a group of columns from the Trips module.</p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

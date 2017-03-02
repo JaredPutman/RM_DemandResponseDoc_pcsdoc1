@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="PDFGuideATitle"
+    Link="/Content/Print Only Topics/PDFGuideATitle.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/RMCover.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Print Only Topics/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl" />
+  <TocEntry
+    Title="TOC"
+    Link="/Content/Print Only Topics/TOC.htm"
+    BreakType="chapter"
+    StartSection="true"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl"
+    ChapterNumberReset="continue"
+    ChapterNumber=""
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    PageNumberFormat="lower-roman"
+    PageNumber="1"
+    PageType="firstright" />
+  <TocEntry
+    Title="Scheduling Module Overview"
+    Link="/Content/Module Topics/Scheduling_Topics/Overview/Scheduling Module Overview.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    PageNumberFormat="decimal">
+    <TocEntry
+      Title="Tool Bar Controls"
+      Link="/Content/Module Topics/Scheduling_Topics/Overview/Tool Bar Controls.htm" />
+    <TocEntry
+      Title="Scheduling Module Interface"
+      Link="/Content/Module Topics/Scheduling_Topics/Overview/Scheduling Module Interface.htm">
+      <TocEntry
+        Title="Sub-windows"
+        Link="/Content/Module Topics/Scheduling_Topics/Overview/Sub windows.htm">
+        <TocEntry
+          Title="Scheduled Trips"
+          Link="/Content/Module Topics/Scheduling_Topics/Overview/Scheduled Trips.htm" />
+        <TocEntry
+          Title="Map"
+          Link="/Content/Module Topics/Scheduling_Topics/Overview/Map.htm" />
+        <TocEntry
+          Title="Unscheduled Trips"
+          Link="/Content/Module Topics/Scheduling_Topics/Overview/Unscheduled Trips.htm" />
+        <TocEntry
+          Title="Unscheduled Runs"
+          Link="/Content/Module Topics/Scheduling_Topics/Unscheduled Runs.htm" />
+        <TocEntry
+          Title="Audit Log"
+          Link="/Content/Module Topics/Scheduling_Topics/Overview/Audit Log.htm">
+          <TocEntry
+            Title="How to Create or Modify an Audit Log Note"
+            Link="/Content/Module Topics/Scheduling_Topics/How to Create or Modify an Audit Log Note.htm" />
+        </TocEntry>
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Enhanced Manual Scheduling"
+      Link="/Content/Module Topics/Scheduling_Topics/Overview/Enhanced Manual Scheduling.htm">
+      <TocEntry
+        Title="How to Turn on Enhanced Manual Scheduling"
+        Link="/Content/Module Topics/Scheduling_Topics/Overview/How to Turn on Enhanced Manual.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Configuring the Interface"
+      Link="/Content/Module Topics/Scheduling_Topics/Overview/Configuring the Interface.htm">
+      <TocEntry
+        Title="Changing a Sub-Window's Location and Size"
+        Link="/Content/Module Topics/Scheduling_Topics/Overview/Changing a Sub-Window's Location and Size.htm" />
+      <TocEntry
+        Title="Interface Examples"
+        Link="/Content/Module Topics/Scheduling_Topics/Overview/Interface Examples.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Trip Icons"
+      Link="/Content/Module Topics/Scheduling_Topics/Overview/Trip Icons.htm" />
+    <TocEntry
+      Title="Search"
+      Link="/Content/Module Topics/Scheduling_Topics/Overview/Search.htm"
+      BreakType="none"
+      PageType="firstright"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+      <TocEntry
+        Title="Searching in the Scheduled Trips Sub-window"
+        Link="/Content/Module Topics/Scheduling_Topics/Overview/Searching in the Scheduled.htm" />
+      <TocEntry
+        Title="Searching in the Unscheduled Trips Sub-window"
+        Link="/Content/Module Topics/Scheduling_Topics/Overview/Searching in the Unscheduled Trips Sub-window.htm" />
+      <TocEntry
+        Title="Searching in the Unscheduled Runs Sub-window"
+        Link="/Content/Module Topics/Scheduling_Topics/Overview/Searching in the Unscheduled Runs Sub-window.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Creating Schedules"
+    Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Creating Schedules.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageType="firstright"
+    PageNumber="1">
+    <TocEntry
+      Title="Overview"
+      Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Overview.htm">
+      <TocEntry
+        Title="How to Select a Date and Time Range"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/How to Select a Date and Time.htm" />
+      <TocEntry
+        Title="How to Manually Schedule a Trip"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/How to Manually Schedule a.htm" />
+      <TocEntry
+        Title="Select Trip or Stop"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Select Trip or Stop.htm" />
+      <TocEntry
+        Title="Computed Travel Time"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Computed Travel Time.htm"></TocEntry>
+      <TocEntry
+        Title="Preview the Impact of Adding a Trip"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Preview the Impact of Adding.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Enhanced Manual Scheduling"
+      Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Enhanced Manual Scheduling.htm" />
+    <TocEntry
+      Title="Save Mode"
+      Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Save Mode.htm">
+      <TocEntry
+        Title="How to select a Save Mode"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/How to select a Save Mode.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Runs"
+      Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Runs.htm">
+      <TocEntry
+        Title="How to Create a Run"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/How to Create a Run.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Breaks"
+      Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Breaks.htm">
+      <TocEntry
+        Title="How to Create a Break"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/How to Create a Break.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="RouteMatch Scheduling Engine"
+      Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/RouteMatch Scheduling Engine.htm">
+      <TocEntry
+        Title="Schedule Optimization"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Schedule Optimization.htm">
+        <TocEntry
+          Title="How to Execute a Schedule Optimization"
+          Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/How to Execute a Schedule.htm">
+          <TocEntry
+            Title="Invalid Schedule Optimization Results"
+            Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Invalid Schedule Optimization.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Unscheduled Trip Statistics"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Unscheduled Trip Statistics.htm" />
+      <TocEntry
+        Title="Summary Statistics"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Summary Statistics.htm" />
+      <TocEntry
+        Title="Optimizing Schedules with Runs"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Optimizing Schedules with Runs.htm" />
+      <TocEntry
+        Title="RSE Auto-Suggestions"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/RSE Auto Suggestions.htm" />
+      <TocEntry
+        Title="Show Recommendations"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Show Recommendations.htm" />
+      <TocEntry
+        Title="Quick Recommendation"
+        Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Quick Recommendation.htm">
+        <TocEntry
+          Title="Vehicle Schedule"
+          Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Vehicle Schedule.htm" />
+        <TocEntry
+          Title="Similar Trips"
+          Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Similar Trips.htm" />
+        <TocEntry
+          Title="Show Recommendations for Multiple Trips"
+          Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Show Recommendations for Multiple.htm" />
+        <TocEntry
+          Title="How to Post to Dispatching and Lock"
+          Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/How to Post to Dispatching.htm" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Editing Schedules"
+    Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageType="firstright"
+    PageNumber="1">
+    <TocEntry
+      Title="Changing or Shifting Times"
+      Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/Changing or Shifting Times.htm">
+      <TocEntry
+        Title="How to Change a Trip's Time"
+        Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/How to Change a Trips Time.htm" />
+      <TocEntry
+        Title="How to Change a Run's Time"
+        Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/How to Change a Runs Time.htm" />
+      <TocEntry
+        Title="How to Shift Run and Trip Times"
+        Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/How to Shift Run and Trip.htm" />
+      <TocEntry
+        Title="How to Change a Break's Time"
+        Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/How to Change a Breaks Time.htm" />
+      <TocEntry
+        Title="How to Change a Garage Stop Time"
+        Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/How to Change a Garage Stop.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Rescheduling"
+      Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/Rescheduling.htm">
+      <TocEntry
+        Title="How to Reschedule a Trip or Run"
+        Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/How to Reschedule a Trip or.htm">
+        <TocEntry
+          Title="Drag and Drop"
+          Link="/Content/Module Topics/Scheduling_Topics/Drag and Drop.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Unscheduling"
+      Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/Unscheduling.htm">
+      <TocEntry
+        Title="How to Unschedule a Trip or Run"
+        Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/How to Unschedule a Trip or.htm" />
+      <TocEntry
+        Title="Deleting and Cancelling"
+        Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/Deleting and Cancelling.htm">
+        <TocEntry
+          Title="How to Delete or Cancel a Trip or Run"
+          Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/How to Delete or Cancel a.htm" />
+        <TocEntry
+          Title="Delete a Break"
+          Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/Delete a Break.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Change Vehicle Garage Stop Properties"
+        Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/Change Vehicle Garage Stop.htm" />
+      <TocEntry
+        Title="Commit the Schedule"
+        Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/Commit the Schedule.htm" />
+      <TocEntry
+        Title="How to Change a Trip's Time Acceptance"
+        Link="/Content/Module Topics/Scheduling_Topics/Editing Schedules/How to Change a Trips Time Acceptance.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Other Scheduling Features"
+    Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Other Scheduling Features.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageType="firstright"
+    PageNumber="1">
+    <TocEntry
+      Title="Customer and Trip Details"
+      Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Customer and Trip Details.htm" />
+    <TocEntry
+      Title="Customer Trip History"
+      Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Customer Trip History.htm" />
+    <TocEntry
+      Title="Cluster Analysis"
+      Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Cluster Analysis.htm" />
+    <TocEntry
+      Title="Fill Scheduling Gaps"
+      Link="/Content/Module Topics/Scheduling_Topics/Creating Schedules/Fill Scheduling Gaps.htm" />
+    <TocEntry
+      Title="Vehicle Capacity"
+      Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Vehicle Capacity.htm" />
+    <TocEntry
+      Title="Freeze and Semi-Freeze"
+      Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Freeze and Semi Freeze.htm">
+      <TocEntry
+        Title="How to Freeze or Semi-Freeze a Trip"
+        Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/How to Freeze or Semi Freeze.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Batch Update the Denial Status of Trips"
+      Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Batch Update the Denial Status.htm"></TocEntry>
+    <TocEntry
+      Title="Schedule Validation"
+      Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Schedule Validation.htm">
+      <TocEntry
+        Title="Schedule Validation Icons"
+        Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Schedule Validation Icons.htm" />
+      <TocEntry
+        Title="Validation Rules"
+        Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Validation Rules.htm" />
+      <TocEntry
+        Title="How to Validate a Schedule"
+        Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/How to Validate a Schedule.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="IVR Callouts"
+      Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/IVR Callouts.htm">
+      <TocEntry
+        Title="Post IVR Callouts"
+        Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Post IVR Callouts.htm" />
+      <TocEntry
+        Title="IVR Callout Status Report"
+        Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/IVR Callout Status Report.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Reports in the Scheduling Module"
+      Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Reports in the Scheduling.htm">
+      <TocEntry
+        Title="Scheduled Trips Report"
+        Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Scheduled Trips Report.htm" />
+      <TocEntry
+        Title="Unscheduled Trips Report"
+        Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Unscheduled Trips Report.htm" />
+      <TocEntry
+        Title="Will Calls Trips Report"
+        Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Will Calls Trips Report.htm" />
+      <TocEntry
+        Title="IVR Callout Status Report"
+        Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Print the IVR Callout Status Report.htm" />
+      <TocEntry
+        Title="Print the Map"
+        Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Print the Map.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Scheduling Drivers"
+    Link="/Content/Module Topics/Scheduling_Topics/Scheduling Drivers/Scheduling Drivers.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageType="firstright">
+    <TocEntry
+      Title="How to Schedule a Driver"
+      Link="/Content/Module Topics/Scheduling_Topics/Scheduling Drivers/How to Schedule a Driver.htm">
+      <TocEntry
+        Title="Adjust a Driver Schedule"
+        Link="/Content/Module Topics/Scheduling_Topics/Scheduling Drivers/Adjust a Driver Schedule.htm" />
+      <TocEntry
+        Title="Accessing the Driver Scheduling Window"
+        Link="/Content/Module Topics/Scheduling_Topics/Scheduling Drivers/Accessing the Driver Scheduling.htm" />
+      <TocEntry
+        Title="Driver Score and Score Calculations"
+        Link="/Content/Module Topics/Scheduling_Topics/Scheduling Drivers/Driver Score and Score Calculations.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Deviated Fixed Route"
+    Link="/Content/Module Topics/Scheduling_Topics/Deviated Fixed Route/Deviated Fixed Route.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageType="firstright"
+    PageNumber="1">
+    <TocEntry
+      Title="Creating Deviated Fixed Routes"
+      Link="/Content/Module Topics/Scheduling_Topics/Deviated Fixed Route/Creating Deviated Fixed Routes.htm">
+      <TocEntry
+        Title="Fixed Route Creation Process Outline"
+        Link="/Content/Module Topics/Scheduling_Topics/Fixed Route Creation Process.htm" />
+      <TocEntry
+        Title="Vehicles"
+        Link="/Content/Module Topics/Scheduling_Topics/Deviated Fixed Route/Vehicles.htm">
+        <TocEntry
+          Title="How to Configure a &quot;Mixed Mode&quot; Vehicle"
+          Link="/Content/Module Topics/Scheduling_Topics/Deviated Fixed Route/How to Configure a Mixed Mode.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Scheduling"
+        Link="/Content/Module Topics/Scheduling_Topics/Deviated Fixed Route/Scheduling.htm">
+        <TocEntry
+          Title="How to Schedule a Paratransit Trip or Run to a Mixed Mode Vehicle"
+          Link="/Content/Module Topics/Scheduling_Topics/Deviated Fixed Route/How to Schedule a Paratransit.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Dispatching"
+        Link="/Content/Module Topics/Scheduling_Topics/Deviated Fixed Route/Dispatching.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Troubleshooting Messages for RouteMatch Scheduling Engine (RSE)"
+    Link="/Content/Module Topics/Scheduling_Topics/Troubleshooting Messages for.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+  <TocEntry
+    Title="Index"
+    Link="/Content/Print Only Topics/Index.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    PageType="firstright"
+    PageNumber="1" />
+</CatapultToc>

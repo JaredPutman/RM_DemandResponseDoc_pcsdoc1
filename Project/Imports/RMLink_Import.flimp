@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  LastCollectTime="2016-10-27T15:46:50.9440177-04:00"
+  ProjectName="Demand Response"
+  ProjectFolder="\\routematch.local\rmdfs\Data\Departments\Doc_Training\Flare Projects\Fixed and Demand\Demand Response\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  Stylesheet="../../Content/Resources/Stylesheets/RMMainStyles.css"
+  LastImport="2016-10-27T15:47:46.0201494-04:00">
+  <Files>
+    <Url
+      Source="file:///C:/Users/JPUTMAN.ROUTEMATCH/Desktop/RMLink_Import.docx"
+      AbsoluteSource="file:///C:/Users/JPUTMAN.ROUTEMATCH/Desktop/RMLink_Import.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/RMLink_Import/RMLink.png"
+      TimeStamp="10/27/2016 3:47:23 PM" />
+    <Url
+      Source="../../Content/Resources/Images/RMLink_Import/RMLink_1.png"
+      TimeStamp="10/27/2016 3:47:23 PM" />
+    <Url
+      Source="../../Content/RMLink_Import/RMLink.htm"
+      TimeStamp="10/27/2016 3:47:24 PM" />
+    <Url
+      Source="../../Content/RMLink_Import/Remote Logon and Logoff.htm"
+      TimeStamp="10/27/2016 3:47:24 PM" />
+    <Url
+      Source="../TOCs/RMLink_Import.fltoc"
+      TimeStamp="10/27/2016 3:47:24 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/RMMainStyles_1.css"
+      TimeStamp="10/27/2016 3:47:24 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+    <Map
+      From="Heading 5"
+      To="h5.Heading 5" />
+    <Map
+      From="Heading 6"
+      To="h6.Heading 6" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 2" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Body Text" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="List Number" />
+    <StyleName
+      Name="List Paragraph" />
+    <StyleName
+      Name="Note Body" />
+    <StyleName
+      Name="NoteHeader" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles />
+</MsWordImport>

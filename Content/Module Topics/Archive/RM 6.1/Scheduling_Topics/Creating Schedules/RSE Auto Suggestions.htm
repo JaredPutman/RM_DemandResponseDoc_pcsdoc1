@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../../../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2>
+            <MadCap:keyword term="RSE Auto-Suggestions">&#160;</MadCap:keyword><a name="_Toc447186044"></a>RSE Auto-Suggestions</h2>
+        <p>The RSE tuning parameters work in combination to produce results for each agency, but there is no way to know in advance which combination works the best for a specific agency. This can create a tedious process of trial and error to define the suitable settings for each agency. The Auto-Suggestion feature makes this process easier by using a large number of pre-defined setting profiles to present a table that displays the setting profiles and the resulting number of scheduled trips. These profiles are derived by examining the current settings successfully being used at several agencies. The range of values that comprise a profile should cover the client’s operational needs such as Vehicle Efficiency versus Client Comfort, travel speed, etc. Once a profile is identified as acceptable to the client, a final step can be taken to fine tune it.</p>
+        <p>In the Settings module under Scheduling Options, the Enable RSE Auto-Suggestion setting must be selected in the Master Profile set of tuning parameters to run the Auto-Suggestion feature. Please consult with RouteMatch Customer Support before adjusting this setting.</p>
+        <ol style="list-style-type: decimal;margin-left: 35pt;" start="1">
+            <li>Click Optimize in the toolbar and select View Auto-Suggestions from the drop down list.</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 35pt;" start="2">
+            <li>Select the vehicles you want to optimize. The optimize options need to be selected so that the setting changes will have the maximum impact on the schedule. All the vehicles should be empty since RSE prefers to keep the scheduled trips on their original vehicle. This lessens the impact of a different setting value. The number of trips to be scheduled should be in the neighborhood of 200. This is a sufficiently large number to provide a good contrast and will allow the scheduling to be accomplished in less than 30 minutes. For a large agency, this can be done by optimizing a single service. For an extremely large number of trips (more than 2000), the auto-suggestion function may run for hours before returning results.</li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 35pt;" start="3">
+            <li>Click Optimize to launch the process.</li>
+        </ol>
+        <p>
+            <img src="../../../../../Resources/Images/Scheduling_Screenshots/RSE Auto Suggestions.png" style="width: 538px;height: 249px;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 35pt;" start="4">
+            <li>The results display. Each column contains the values for the settings shown at the top of the table. The last column is the number of trips scheduled. The relative number of trips scheduled shows the best profile for your agency. Please note that the first profile in the table is the present value of the settings in your database. Following it are eighteen pre-defined, fixed profiles. After identifying the best profile, RouteMatch can fine-tune it by modifying the settings in the database and running auto-suggestion with the new settings.</li>
+        </ol>
+        <p>&#160;</p>
+    </body>
+</html>

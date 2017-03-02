@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../../../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2><a name="_Toc447186030"></a>Preview the Impact of Adding a Trip</h2>
+        <p>When you manually schedule a trip, the stops already on the vehicle shift either earlier or later in order to incorporate the new trip. RouteMatch displays this shift when you drag the trip over a vehicle schedule, so you aware of the effect of the change.</p>
+        <p>In the examples below, a trip is being dragged over a vehicle schedule. Notice how the cursor is changed to indicate that if dropped at that point, the trip is scheduled below the highlighted stop or above the highlighted stop. </p>
+        <p>
+            <img src="../../../../../Resources/Images/Scheduling_Screenshots/Preview the Impact of Adding.png" style="visibility: visible;width: 530px;height: 169px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;" />
+        </p>
+        <p>
+            <img src="../../../../../Resources/Images/Scheduling_Screenshots/Preview the Impact of Adding_1.png" style="visibility: visible;width: 530px;height: 170px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;" />
+        </p>
+        <p>If insufficient time exists, the previous trips are pushed earlier (but never outside of time windows and allowing for travel time) and subsequent trips are pushed later (again within time windows and allowing for travel time). </p>
+        <p>In the example below, the trip for Cindy Karswell was scheduled after Amelia Hart’s drop-off. Since there is insufficient time to schedule this trip, the system attempts to shift Amelia’s pickup and drop-off earlier, but this is not possible without pushing this trip outside it’s pickup time window of 10:30-11:30. </p>
+        <p>
+            <img src="../../../../../Resources/Images/Scheduling_Screenshots/Preview the Impact of Adding_2.png" style="visibility: visible;width: 530px;height: 182px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;" />
+        </p>
+        <p>The system then attempts to shift Lauren King’s pickup and drop-off later, which it does, up to the late pickup time of 12:00. This is still not enough time to schedule Cindy, and results in insufficient travel time or predicated late values (PL=) for her pickup, drop-off, and travel to Lauren’s trip. </p>
+        <p>The benefit in this enhancement is that you are now able to see the changes you have made to the schedule immediately and how they may impact others.</p>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName"
+    EvaluatedDefinition="RouteMatch Software, Inc.">RouteMatch Software, Inc.</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber"
+    EvaluatedDefinition="866-653-3629">866-653-3629</Variable>
+  <Variable
+    Name="StreetAddress"
+    Comment=""
+    Definition="Some text"
+    OriginalName="StreetAddress"
+    EvaluatedDefinition="1201 West Peachtree Street Suite 3300">1201 West Peachtree Street Suite 3300</Variable>
+  <Variable
+    Name="ProductName"
+    Comment=""
+    OriginalName="ProductName"
+    EvaluatedDefinition="RouteMatch">RouteMatch</Variable>
+  <Variable
+    Name="Fax"
+    Comment=""
+    OriginalName="Fax"
+    EvaluatedDefinition="404-898-1145">404-898-1145</Variable>
+  <Variable
+    Name="CityStateZip"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Atlanta, GA 30309">Atlanta, GA 30309</Variable>
+  <Variable
+    Name="UserGuideTitle"
+    Comment=""
+    EvaluatedDefinition="Verification">Verification</Variable>
+  <Variable
+    Name="DocumentVersionNumber"
+    OriginalName="VersionNumberDot"
+    EvaluatedDefinition="DV#2.0">DV#2.0</Variable>
+  <Variable
+    Name="Year"
+    OriginalName="Year"
+    EvaluatedDefinition="yyyy">yyyy</Variable>
+  <Variable
+    Name="SoftwareVersion"
+    Comment=""
+    EvaluatedDefinition="6.2.26">6.2.26</Variable>
+  <Variable
+    Name="SoftwareVersion"
+    Comment=""
+    EvaluatedDefinition="6.1.44">6.1.44</Variable>
+  <Variable
+    Name="TodaysDate"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2016-10-20T11:24:41.6283319-04:00"
+    EvaluatedDefinition="dddd MMMM dd, yyyy">dddd MMMM dd, yyyy</Variable>
+  <Variable
+    Name="UserGuideTitle"
+    Comment=""
+    EvaluatedDefinition="Trips">Trips</Variable>
+  <Variable
+    Name="UserGuideTitle"
+    Comment=""
+    EvaluatedDefinition="Dispatching">Dispatching</Variable>
+  <Variable
+    Name="UserGuideTitle"
+    Comment=""
+    EvaluatedDefinition="Customers">Customers</Variable>
+  <Variable
+    Name="UserGuideTitle"
+    Comment=""
+    EvaluatedDefinition="Scheduling">Scheduling</Variable>
+  <Variable
+    Name="UserGuideTitle"
+    Comment=""
+    EvaluatedDefinition="Services, Billing, and Funding Sources">Services, Billing, and Funding Sources</Variable>
+</CatapultVariableSet>

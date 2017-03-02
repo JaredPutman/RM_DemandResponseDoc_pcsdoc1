@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../../../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <p>
+        </p>
+        <h3>
+            <MadCap:keyword term="How to Use Date and Time Fields to Build Filters">&#160;</MadCap:keyword><a name="_Toc447716252"></a>How to Use Date and Time Fields to Build Filters</h3>
+        <p>The date and time at which a trip becomes visible in Dispatching is designated as the trip being "posted". This posted date/time is stored in the Entered Date field, and this field can be added to the grid display for any data view. This field is useful for detecting when a trip has been posted to Dispatching. For example, if an agency posts trips at 5:00 a.m. each day, a filter of all trips with an entered date after 5:00 a.m. would show all trips added since the posting process executed. By using the additional conditions explained below, you can filter on trips added in the last hour, last 30 minutes, etc.</p>
+        <p>The following fields have additional date-related conditions for building filters:</p>
+        <ul style="list-style-type: disc;margin-left: 63pt;">
+            <li style="list-style-type: disc;">StopDateTime</li>
+            <li style="list-style-type: disc;">EnteredDate</li>
+            <li style="list-style-type: disc;">RequestTime</li>
+            <li style="list-style-type: disc;">TripDate (Scheduled Object Date)</li>
+        </ul>
+        <p>The following fields have time-related conditions for building filters:</p>
+        <ul style="list-style-type: disc;margin-left: 63pt;">
+            <li style="list-style-type: disc;">StopDateTime</li>
+            <li style="list-style-type: disc;">EnteredDate</li>
+            <li style="list-style-type: disc;">RequestTime</li>
+        </ul>
+        <p>With the ability for a trip to span midnight, Dispatching may contain trips from different dates. The following additional date selectors allow you to see anything with a date of X days ago, X days in the future, or today:</p>
+        <ul style="list-style-type: disc;margin-left: 72pt;">
+            <li style="list-style-type: disc;">"Days Before Today Equals"</li>
+            <li style="list-style-type: disc;">"Days After Today Equals"</li>
+            <li style="list-style-type: disc;">"Is Today"</li>
+        </ul>
+        <p>The following additional time selectors allow you to look at windows of time before and after the time considered "now":</p>
+        <ul style="list-style-type: disc;margin-left: 59pt;">
+            <li style="list-style-type: disc;">"Minutes Before Now More Than"</li>
+            <li style="list-style-type: disc;">"Minutes Before Now Less Than"</li>
+            <li style="list-style-type: disc;">"Minutes After Now More Than"</li>
+            <li style="list-style-type: disc;">"Minutes After Now Less Than"</li>
+            <li style="list-style-type: disc;">"Is Now"</li>
+        </ul>
+        <p>So, for example, you can select to filter on the "StopDateTime" and select "Minutes After Now Less Than" and enter 30 in the value field. This would select all trips with a StopDateTime in the next 30 minutes. This is always relative to "now" which is set when you refresh. So, if you refresh at 2:30 p.m. you would see all trips with a StopDateTime from 2:30p.m. to 3:00 p.m.</p>
+        <p>&#160;</p>
+    </body>
+</html>

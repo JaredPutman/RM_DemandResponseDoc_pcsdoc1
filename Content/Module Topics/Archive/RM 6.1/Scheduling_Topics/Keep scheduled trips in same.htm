@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <li style="list-style-type: square;">Keep scheduled trips in same order – Select this option to specify if trips already on a vehicle, should be kept in the same order as previously scheduled. The combination of Keep scheduled trips on same vehicles, Keep scheduled trips in same order, and Keep scheduled trips at same time allow schedulers to choose more detail in how RSE should handle trips already scheduled to vehicles. We recommend that you not use this option so that RSE has the freedom to re-order trips on a vehicle to create a better schedule.</li>
+        <ul style="list-style-type: square;margin-left: 54pt;">
+            <li style="list-style-type: square;">Keep scheduled trips at same time - Selecting this option will optimize the trips by preserving the times of the already scheduled trips. The Keep scheduled trips on same vehicles must also be selected to use this option.</li>
+            <li style="list-style-type: square;">Only trips scheduled by RSE – For each of the Keep scheduled trips… options, you can select this to only adhere to those restrictions if RSE scheduled the trips as opposed to the trips scheduled manually.</li>
+            <li style="list-style-type: square;">Allow trips on any service - Selecting this option will optimize the trips and allow trips to be scheduled on any selected vehicle regardless of service associated to the vehicle.</li>
+            <li style="list-style-type: square;">Attempt to insert unscheduled trips - Selecting this option will optimize the trips and attempt to insert unscheduled trips to vehicles where applicable.</li>
+            <li style="list-style-type: square;">Schedule trips within runs - Selecting this option will schedule trips within the selected run time windows. No trips will be scheduled outside of the defined run times.</li>
+            <li style="list-style-type: square;">Schedule trips around runs - Selecting this option will schedule trips around runs and prevent trips from being scheduled within runs.</li>
+            <li style="list-style-type: square;">Adjust Run Times Around Trips – When trips are added to a run, the time of the run is adjusted by the trips it contains. This keeps a large time gap from existing before and after the first and last trips. For example, if the run is scheduled to run between 9 AM and 5 PM and the trips scheduled to the run are between 11 AM and 3 PM, the run time will be adjusted according to the Adjusted Runs Include Travel Times option. If the travel time is 10 minutes for both the first pickup and last drop-off, the new run would be 10:50 AM to 3:10 PM.</li>
+            <li style="list-style-type: square;">Adjusted Runs Include Travel Times – Select this option to have RSE take into account travel time to and from the garage when adjusting the run time around trips.</li>
+        </ul>
+        <ol style="list-style-type: decimal;margin-left: 35pt;" start="7">
+            <li>Click the Optimize button. </li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 35pt;" start="8">
+            <li>The Optimization Results screen appears and has three panes: Optimized Vehicles, Current Schedule, and Proposed Schedule. The status of each trip on the vehicle is indicated by a symbol preceding the trip. The legend at the bottom of the Optimization Results screen explains the symbols. Notice that two trips were added to the schedule in the example below.</li>
+        </ol>
+        <p>
+            <img src="../../../../Resources/Images/Scheduling_Screenshots/Keep scheduled trips in same.png" style="width: 520px;height: 337px;" />
+        </p>
+        <ol style="list-style-type: decimal;margin-left: 35pt;" start="9">
+            <li>Click Accept Vehicle to accept the schedule on the selected vehicle. Click Accept Schedule to accept the schedules on all vehicles, or click Cancel and Return to discard the schedule. </li>
+        </ol>
+        <ol style="list-style-type: decimal;margin-left: 35pt;" start="10">
+            <li>Click Apply Schedule to finish the process and close the screen.</li>
+        </ol>
+        <p>&#160;</p>
+    </body>
+</html>

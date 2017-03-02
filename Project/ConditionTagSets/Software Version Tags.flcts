@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="6_2_XX"
+    Comment=""
+    OriginalName="6_2_XX" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="6_2_20"
+    Comment=""
+    OriginalName="6_2_20" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="6_2_21"
+    Comment=""
+    OriginalName="6_2_21" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="6_2_22"
+    Comment=""
+    OriginalName="6_2_22" />
+  <ConditionTag
+    BackgroundColor="#8b4513"
+    Name="6_2_23"
+    Comment=""
+    OriginalName="6_2_23" />
+  <ConditionTag
+    BackgroundColor="#ff00ff"
+    Name="6_2_24"
+    Comment=""
+    OriginalName="6_2_24" />
+  <ConditionTag
+    BackgroundColor="#2f4f4f"
+    Name="6_2_25"
+    Comment=""
+    OriginalName="6_2_25" />
+  <ConditionTag
+    BackgroundColor="#9acd32"
+    Name="6_2_26"
+    Comment=""
+    OriginalName="6_2_26" />
+  <ConditionTag
+    BackgroundColor="#fa8072"
+    Name="6_2_27"
+    Comment=""
+    OriginalName="6_2_27" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="6_2_15"
+    Comment=""
+    OriginalName="6_2_15" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="6_2_18"
+    Comment=""
+    OriginalName="6_2_18" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="6_2_17"
+    Comment=""
+    OriginalName="6_2_17" />
+  <ConditionTag
+    BackgroundColor="#620000"
+    Name="6_2_19"
+    Comment=""
+    OriginalName="6_2_19" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="6_2_08"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="6_1_XX"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="6_1_14"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="6_1_12"
+    Comment="" />
+</CatapultConditionTagSet>

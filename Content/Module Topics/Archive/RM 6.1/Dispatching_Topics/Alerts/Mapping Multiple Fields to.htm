@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="459" MadCap:lastWidth="624">
+    <head><title></title>
+        <link href="../../../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2>
+            <MadCap:keyword term="Mapping Multiple Fields to Trigger the Same Alert">&#160;</MadCap:keyword><a name="_Toc447716310"></a>Mapping Multiple Fields to Trigger the Same Alert</h2>
+        <p>In addition to setting basic alerts where a field change turns on an alert, you can define field changes to turn off an alert and you can define multiple fields to turn on or off the same alert. When multiple fields are mapped to the same alert, you must define an order in which the changes would be applied. The highest number in the order is applied last. Higher order changes override lower order changes. For example, you could map changes to both Guest Count and Attendants to an alert named Rider Count Change. If either field is changed, this alert is turned on. You could further define a change of vehicle to turn this alert off. So, if you changed the number of riders and the vehicle, the order would determine if the alert was turned on or off. If the vehicle change has the highest order, the alert would be off.</p>
+        <p>You can also format on values in descending order. For example, if a trip is less than 30 minutes from now make it blue, if it is less than 20 minutes make it yellow, if less than 10 make it red. In this case, you must list the formatting conditions in the proper order. Starting from the top of the list and moving down, the first format is the one that will apply to a row. Below are two examples: the one on the left using greater than and the one on the right using less than. Notice that the order is different.</p>
+        <p>Guest Count &gt; 3&#160; Red&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Trip Time &lt; 10&#160; Red</p>
+        <p>Guest Count &gt; 2&#160; Yellow&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Trip Time &lt; 20&#160; Yellow</p>
+        <p>Guest Count &gt; 1&#160; Blue&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Trip Time &lt; 30&#160; Blue</p>
+        <p>&#160;</p>
+    </body>
+</html>

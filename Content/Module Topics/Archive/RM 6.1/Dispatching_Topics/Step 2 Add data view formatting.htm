@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+        <link href="../../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <p>Step 2: Add data view formatting, if desired.</p>
+        <p>You can use the COP_Proposed Validity Indicator field to format your data view. The COP_Proposed Validity Indicator field shows whether or not a new schedule has been proposed, the validity of the proposed schedule if one has been proposed, or whether the trip has been rescheduled. A proposed schedule may not be valid if another user has made changes to a trip between the time that Continuous Optimize began running and when the proposal was viewed in Dispatching. To differentiate between these states, the COP_Proposed Validity Indicator field has four possible values:</p>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li style="list-style-type: disc;">None – There is no proposed scheduling change for this trip.</li>
+            <li style="list-style-type: disc;">Optimized – There is a proposed change, and it appears to still be valid.</li>
+            <li style="list-style-type: disc;">Suspect – There were changes to the trip that might affect how the trip should be scheduled since Continuous Optimize began running (for example, attendant count, address, load/unload time, etc.), but these did not include changes to the scheduled vehicle or scheduled pickup/dropoff times.</li>
+            <li style="list-style-type: disc;">Rescheduled – There were changes to the trip that included either changing the scheduled vehicle or scheduled pickup/dropoff times.</li>
+            <li style="list-style-type: disc;">By assigning different formatting to each of these values, you can format your data view for ease of use.</li>
+        </ul>
+        <p><sub><img src="../../../../Resources/Images/Dispatching_Screenshots/Step 2 Add data view formatting.png" style="width: 454px;height: 454px;" /></sub>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Customers Module Overview"
+    Link="/Content/Module Topics/Customers_Topics/Overview/Customers Module Overview.htm#_Toc447728856">
+    <TocEntry
+      Title="Key Terms and Concepts"
+      Link="/Content/Module Topics/Customers_Topics/Overview/Key Terms and Concepts.htm#_Toc447728857" />
+    <TocEntry
+      Title="Customer Module Tabs"
+      Link="/Content/Module Topics/Customers_Topics/Overview/Customer Module Tabs.htm#_Toc447728858" />
+    <TocEntry
+      Title="The Customers Module Tool Bar"
+      Link="/Content/Module Topics/Customers_Topics/Overview/The Customers Module Tool.htm#_Toc447728859" />
+  </TocEntry>
+  <TocEntry
+    Title="Creating a New Customer"
+    Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/Creating a New Customer.htm#_Toc447728860">
+    <TocEntry
+      Title="General Tab"
+      Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/General Tab.htm#_Toc447728861" />
+    <TocEntry
+      Title="How to Create a New Customer"
+      Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/How to Create a New Customer.htm#_Toc447728862" />
+    <TocEntry
+      Title="How to Add an Attachment"
+      Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/How to Add an Attachment.htm#_Toc447728863" />
+    <TocEntry
+      Title="Miscellaneous &amp; Custom Fields Tabs"
+      Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/Miscellaneous Custom Fields.htm#_Toc447728864">
+      <TocEntry
+        Title="Eligibility"
+        Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/Eligibility.htm#_Toc447728865" />
+      <TocEntry
+        Title="Emergency Contacts"
+        Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/Emergency Contacts.htm#_Toc447728866" />
+      <TocEntry
+        Title="Assistance Needs"
+        Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/Assistance Needs.htm#_Toc447728867" />
+      <TocEntry
+        Title="Medical / Disability"
+        Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/Medical Disability.htm#_Toc447728868" />
+      <TocEntry
+        Title="Travel Restriction"
+        Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/Travel Restriction.htm#_Toc447728869" />
+    </TocEntry>
+    <TocEntry
+      Title="Custom Fields"
+      Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/Custom Fields.htm#_Toc447728870">
+      <TocEntry
+        Title="How to Add a Custom Field"
+        Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/How to Add a Custom Field.htm#_Toc447728871" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Audit Log"
+    Link="/Content/Module Topics/Customers_Topics/Audit Log/Audit Log.htm#_Toc447728872">
+    <TocEntry
+      Title="How to Audit Profile Changes"
+      Link="/Content/Module Topics/Customers_Topics/Audit Log/How to Audit Profile Changes.htm#_Toc447728873" />
+    <TocEntry
+      Title="Notes Toolbar"
+      Link="/Content/Module Topics/Customers_Topics/Audit Log/Notes Toolbar.htm#_Toc447728874" />
+  </TocEntry>
+  <TocEntry
+    Title="Favorite Addresses &amp; Trips"
+    Link="/Content/Module Topics/Customers_Topics/Favorite Addresses and Trips/Favorite Addresses Trips.htm#_Toc447728875">
+    <TocEntry
+      Title="Favorite Addresses tab"
+      Link="/Content/Module Topics/Customers_Topics/Favorite Addresses and Trips/Favorite Addresses.htm#_Toc447728876">
+      <TocEntry
+        Title="How to Create a New Favorite Address"
+        Link="/Content/Module Topics/Customers_Topics/Favorite Addresses and Trips/How to Create a New Favorite Address.htm#_Toc447728877" />
+      <TocEntry
+        Title="How to Edit a Favorite Address"
+        Link="/Content/Module Topics/Customers_Topics/Favorite Addresses and Trips/How to Edit a Favorite Address.htm#_Toc447728878" />
+      <TocEntry
+        Title="How to Delete a Favorite Address"
+        Link="/Content/Module Topics/Customers_Topics/Favorite Addresses and Trips/How to Delete a Favorite Address.htm#_Toc447728879" />
+    </TocEntry>
+    <TocEntry
+      Title="Favorite Trips"
+      Link="/Content/Module Topics/Customers_Topics/Favorite Addresses and Trips/Favorite Trips.htm#_Toc447728880">
+      <TocEntry
+        Title="How to Create a Favorite Trip"
+        Link="/Content/Module Topics/Customers_Topics/Favorite Addresses and Trips/How to Create a Favorite Trip.htm#_Toc447728881" />
+      <TocEntry
+        Title="How to Edit a Favorite Trip"
+        Link="/Content/Module Topics/Customers_Topics/Favorite Addresses and Trips/How to Edit a Favorite Trip.htm#_Toc447728882" />
+      <TocEntry
+        Title="How to Delete a Favorite Trip"
+        Link="/Content/Module Topics/Customers_Topics/Favorite Addresses and Trips/How to Delete a Favorite Trip.htm#_Toc447728883" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Suspension"
+    Link="/Content/Module Topics/Customers_Topics/Suspensions/Suspension.htm#_Toc447728884">
+    <TocEntry
+      Title="How to Add a Customer Suspension"
+      Link="/Content/Module Topics/Customers_Topics/Suspensions/How to Add a Customer Suspension.htm#_Toc447728885" />
+    <TocEntry
+      Title="How to Add a Customer Abuse Record"
+      Link="/Content/Module Topics/Customers_Topics/Suspensions/How to Add a Customer Abuse.htm#_Toc447728886" />
+    <TocEntry
+      Title="How to Assign an Abuse to a Suspension"
+      Link="/Content/Module Topics/Customers_Topics/Suspensions/How to Assign an Abuse to.htm#_Toc447728887" />
+  </TocEntry>
+  <TocEntry
+    Title="Certification"
+    Link="/Content/Module Topics/Customers_Topics/Certifications/Certification.htm#_Toc447728888">
+    <TocEntry
+      Title="How to Add Certification Information"
+      Link="/Content/Module Topics/Customers_Topics/Certifications/How to Add Certification Information.htm#_Toc447728889" />
+    <TocEntry
+      Title="Printing a Certification Letter"
+      Link="/Content/Module Topics/Customers_Topics/Certifications/Printing a Certification Letter.htm#_Toc447728890" />
+    <TocEntry
+      Title="Printing Certification Questions"
+      Link="/Content/Module Topics/Customers_Topics/Certifications/Printing Certification Questions.htm#_Toc447728891" />
+    <TocEntry
+      Title="Assign Delayed Internal IDs"
+      Link="/Content/Module Topics/Customers_Topics/Certifications/Assign Delayed Internal IDs.htm#_Toc447728892" />
+  </TocEntry>
+  <TocEntry
+    Title="Managing Customers"
+    StartSection="false"
+    Link="/Content/Managing Customers.htm">
+    <TocEntry
+      Title="How to Edit a Customer"
+      Link="/Content/Module Topics/Customers_Topics/Managing Trip Quotas/How to Edit a Customer.htm#_Toc447728894" />
+    <TocEntry
+      Title="How to Inactivate a Customer"
+      Link="/Content/Module Topics/Customers_Topics/Managing Trip Quotas/How to Inactivate a Customer.htm#_Toc447728895" />
+    <TocEntry
+      Title="Managing Trip Quotas"
+      Link="/Content/Module Topics/Customers_Topics/Managing Trip Quotas/Managing Trip Quotas.htm#_Toc447728893"></TocEntry>
+    <TocEntry
+      Title="View Customer Trip History"
+      Link="/Content/Module Topics/Customers_Topics/Managing Trip Quotas/View Customer Trip History.htm#_Toc447728896" />
+    <TocEntry
+      Title="How to Show Customer in Trips"
+      Link="/Content/Module Topics/Customers_Topics/Managing Trip Quotas/How to Show Customer in Trips.htm#_Toc447728897" />
+    <TocEntry
+      Title="How to Delete a Customer"
+      Link="/Content/Module Topics/Customers_Topics/Managing Trip Quotas/How to Delete a Customer.htm#_Toc447728898" />
+    <TocEntry
+      Title="How to Print Customer Information"
+      Link="/Content/Module Topics/Customers_Topics/Managing Trip Quotas/How to Print Customer Information.htm#_Toc447728899" />
+  </TocEntry>
+</CatapultToc>
