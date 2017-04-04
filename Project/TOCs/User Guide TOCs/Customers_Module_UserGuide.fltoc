@@ -90,7 +90,7 @@
     </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Duplicate Customer Check.htm" />
+      Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/Duplicate Customer Check.htm" />
   </TocEntry>
   <TocEntry
     Title="Audit Log"
