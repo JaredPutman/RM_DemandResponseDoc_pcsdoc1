@@ -152,6 +152,9 @@
         Title="Print Trip Information"
         Link="/Content/Module Topics/Trips_Topics/Other Key Features/Print Trip Information.htm#_Toc447786799" />
     </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Temporarily Suspend a Standing Order.htm" />
   </TocEntry>
   <TocEntry
     Title="Index"
