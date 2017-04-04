@@ -88,6 +88,9 @@
         Title="How to Add a Custom Field"
         Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/How to Add a Custom Field.htm#_Toc447728871" />
     </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Duplicate Customer Check.htm" />
   </TocEntry>
   <TocEntry
     Title="Audit Log"
