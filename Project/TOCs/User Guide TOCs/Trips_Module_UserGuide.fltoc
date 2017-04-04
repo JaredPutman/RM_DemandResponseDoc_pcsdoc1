@@ -114,7 +114,7 @@
       Link="/Content/Module Topics/Trips_Topics/Other Key Features/Requested Trip Data Summary.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Trip Time Conflict Checking.htm" />
+      Link="/Content/Module Topics/Trips_Topics/Trip Creation Features/Trip Time Conflict Checking.htm" />
   </TocEntry>
   <TocEntry
     Title="Other Key Features"
@@ -154,7 +154,7 @@
     </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Temporarily Suspend a Standing Order.htm" />
+      Link="/Content/Module Topics/Trips_Topics/Other Key Features/Temporarily Suspend a Standing Order.htm" />
   </TocEntry>
   <TocEntry
     Title="Index"
