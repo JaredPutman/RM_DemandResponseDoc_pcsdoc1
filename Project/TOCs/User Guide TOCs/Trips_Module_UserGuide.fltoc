@@ -112,6 +112,9 @@
     <TocEntry
       Title="Requested Trip Data Summary"
       Link="/Content/Module Topics/Trips_Topics/Other Key Features/Requested Trip Data Summary.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Trip Time Conflict Checking.htm" />
   </TocEntry>
   <TocEntry
     Title="Other Key Features"
