@@ -74,13 +74,13 @@
             Link="/Content/Module Topics/Scheduling_Topics/How to Create or Modify an Audit Log Note.htm" />
         </TocEntry>
       </TocEntry>
-    </TocEntry>
-    <TocEntry
-      Title="Enhanced Manual Scheduling"
-      Link="/Content/Module Topics/Scheduling_Topics/Overview/Enhanced Manual Scheduling.htm">
       <TocEntry
-        Title="How to Turn on Enhanced Manual Scheduling"
-        Link="/Content/Module Topics/Scheduling_Topics/Overview/How to Turn on Enhanced Manual.htm" />
+        Title="Enhanced Manual Scheduling"
+        Link="/Content/Module Topics/Scheduling_Topics/Overview/Enhanced Manual Scheduling.htm">
+        <TocEntry
+          Title="How to Turn on Enhanced Manual Scheduling"
+          Link="/Content/Module Topics/Scheduling_Topics/Overview/How to Turn on Enhanced Manual.htm" />
+      </TocEntry>
     </TocEntry>
     <TocEntry
       Title="Configuring the Interface"
