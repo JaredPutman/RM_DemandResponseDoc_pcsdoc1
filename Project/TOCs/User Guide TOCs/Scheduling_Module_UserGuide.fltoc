@@ -113,6 +113,9 @@
         Title="Searching in the Unscheduled Runs Sub-window"
         Link="/Content/Module Topics/Scheduling_Topics/Overview/Searching in the Unscheduled Runs Sub-window.htm" />
     </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Posting.htm" />
   </TocEntry>
   <TocEntry
     Title="Creating Schedules"
