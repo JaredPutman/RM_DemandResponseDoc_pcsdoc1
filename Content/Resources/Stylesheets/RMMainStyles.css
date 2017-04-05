@@ -48,7 +48,7 @@ a.MCBreadcrumbsLink:hover
 blockquote
 {
 	background-color: #e1e1e1;
-	background-image: url('file:///C:/Users/JWeakland/Desktop/Flare Projects/Amble/Content/Resources/Images/QuotationMark.png');
+	background-image: url('../Images/QuotationMark.png');
 	background-repeat: no-repeat;
 	background-position: top left;
 	border-bottom: none;
@@ -219,9 +219,9 @@ MadCap|dropDown
 {
 	margin-bottom: 6px;
 	margin-top: 6px;
-	mc-closed-image: url('file:///C:/Users/JWeakland/Desktop/Flare Projects/Amble/Content/Resources/Images/DropDownClosed.png');
+	mc-closed-image: url('../Images/DropDownClosed.png');
 	mc-disabled: false;
-	mc-open-image: url('file:///C:/Users/JWeakland/Desktop/Flare Projects/Amble/Content/Resources/Images/DropDownOpen.png');
+	mc-open-image: url('../Images/DropDownOpen.png');
 }
 
 MadCap|dropDownBody
@@ -587,7 +587,7 @@ p.noteTop
 	border-top-color: #0175c0;
 	mc-auto-number-format: '{b}{color #0175c0}Note: {/color}{/b}';
 	color: #000000;
-	background-image: url('file:///C:/Users/JWeakland/Desktop/Flare Projects/Amble/Content/Resources/Images/NoteIcon.png');
+	background-image: url('../Images/NoteIcon.png');
 }
 
 p.TableCaption
@@ -686,18 +686,18 @@ tr
 
 ul
 {
-	list-style-image: url('file:///C:/Users/JWeakland/Desktop/Flare Projects/Amble/Content/Resources/Images/Bullet1.png');
+	list-style-image: url('../Images/Bullet1.png');
 }
 
 ul.FirstLevelLessIndentation
 {
-	list-style-image: url('file:///C:/Users/JWeakland/Desktop/Flare Projects/Amble/Content/Resources/Images/Bullet1.png');
+	list-style-image: url('../Images/Bullet1.png');
 	margin-left: -10px;
 }
 
 ul.SecondLevel
 {
-	list-style-image: url('file:///C:/Users/JWeakland/Desktop/Flare Projects/Amble/Content/Resources/Images/Bullet2.png');
+	list-style-image: url('../Images/Bullet2.png');
 	margin-left: -10px;
 }
 
@@ -1152,18 +1152,18 @@ h1.NoAutoNumber
 
 	ul
 	{
-		list-style-image: url('file:///C:/Users/JWeakland/Desktop/Flare Projects/Amble/Content/Resources/Images/Bullet1Print.eps');
+		list-style-image: url('../Images/Bullet1Print.eps');
 	}
 
 	ul.FirstLevelLessIndentation
 	{
-		list-style-image: url('file:///C:/Users/JWeakland/Desktop/Flare Projects/Amble/Content/Resources/Images/Bullet1Print.eps');
+		list-style-image: url('../Images/Bullet1Print.eps');
 		margin-left: 30px;
 	}
 
 	ul.SecondLevel
 	{
-		list-style-image: url('file:///C:/Users/JWeakland/Desktop/Flare Projects/Amble/Content/Resources/Images/Bullet2Print.eps');
+		list-style-image: url('../Images/Images/Bullet2Print.eps');
 		margin-left: 30px;
 	}
 

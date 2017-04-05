@@ -12,11 +12,11 @@
   DeleteStale="false"
   DeleteUnreferenced="false"
   AutoSync="false"
-  LastImport="2017-01-09T16:24:09.6530045-05:00">
+  LastImport="2017-04-05T13:39:59.7121232-04:00">
   <Files>
     <Url
-      Source="file://routematch.local/rmdfs/Data/Departments/Doc_Training/Flare Projects/RM Global Master Project/RM Global Master Project.flprj"
-      AbsoluteSource="file://routematch.local/rmdfs/Data/Departments/Doc_Training/Flare Projects/RM Global Master Project/RM Global Master Project.flprj" />
+      Source="file:///C:/Flare Projects/RM Global Master Project/RM Global Master Project.flprj"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/RM Global Master Project.flprj" />
   </Files>
   <ExcludedFiles>
     <Url
@@ -105,6 +105,78 @@
     <Url
       Source="file://routematch.local/rmdfs/Data/Departments/Doc_Training/Flare Projects/RM Global Master Project/Project/Skins/TopicToolBar.flskn"
       AbsoluteSource="file://routematch.local/rmdfs/Data/Departments/Doc_Training/Flare Projects/RM Global Master Project/Project/Skins/TopicToolBar.flskn" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/PageLayouts/8_5X11/ChaptersLandscape8_5X11.flpgl"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/PageLayouts/8_5X11/ChaptersLandscape8_5X11.flpgl" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/PageLayouts/8_5X11/CoreRMCover.flpgl"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/PageLayouts/8_5X11/CoreRMCover.flpgl" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/PageLayouts/8_5X11/FRRMCover.flpgl"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/PageLayouts/8_5X11/FRRMCover.flpgl" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/PageLayouts/8_5X11/Glossary8_5X11.flpgl"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/PageLayouts/8_5X11/Glossary8_5X11.flpgl" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/PageLayouts/8_5X11/Index8_5X11.flpgl"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/PageLayouts/8_5X11/Index8_5X11.flpgl" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/PageLayouts/8_5X11/ReleaseNotes.flpgl"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/PageLayouts/8_5X11/ReleaseNotes.flpgl" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/PageLayouts/8_5X11/RMCover.flpgl"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/PageLayouts/8_5X11/RMCover.flpgl" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/Snippets/MiniTOC.flsnp"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/Snippets/MiniTOC.flsnp" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/Stylesheets/RMMainStyles.css"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/Stylesheets/RMMainStyles.css" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/Stylesheets/StylesForHomePage.css"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/TableStyles/PatternedRows.css"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/TableStyles/PatternedRows.css" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/TableStyles/PatternedRowsOnDarkBackground.css"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/TableStyles/PatternedRowsOnDarkBackground.css" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/TableStyles/Simple.css"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/TableStyles/Simple.css" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/TableStyles/SimpleWithPadding.css"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/TableStyles/SimpleWithPadding.css" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/TableStyles/Standard.css"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/TableStyles/Standard.css" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Resources/TableStyles/StandardOnDarkBackground.css"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Resources/TableStyles/StandardOnDarkBackground.css" />
+    <Url
+      Source="../../../RM Global Master Project/Project/Skins/HomeSearchBar.flskn"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Project/Skins/HomeSearchBar.flskn" />
+    <Url
+      Source="../../../RM Global Master Project/Project/Skins/HTML5 - Top Navigation.flskn"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Project/Skins/HTML5 - Top Navigation.flskn" />
+    <Url
+      Source="../../../RM Global Master Project/Project/Skins/SideMenu.flskn"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Project/Skins/SideMenu.flskn" />
+    <Url
+      Source="../../../RM Global Master Project/Project/Skins/TopicToolBar.flskn"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Project/Skins/TopicToolBar.flskn" />
   </CollectedSourceFiles>
   <SkippedSourceFiles>
     <Url
@@ -271,5 +343,8 @@
     <Url
       Source="../Skins/TopicToolBar.flskn"
       TimeStamp="12/19/2016 3:30:01 PM" />
+    <Url
+      Source="../../Content/Resources/PageLayouts/8_5X11/ReleaseNotes.flpgl"
+      TimeStamp="2/23/2017 11:29:58 AM" />
   </GeneratedFiles>
 </CatapultProject>
