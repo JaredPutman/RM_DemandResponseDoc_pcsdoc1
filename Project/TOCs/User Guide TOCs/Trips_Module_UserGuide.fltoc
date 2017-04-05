@@ -103,6 +103,9 @@
       Title="Favorite Trips"
       Link="/Content/Module Topics/Trips_Topics/Trip Creation Features/Favorite Trips.htm#_Toc447786787" />
     <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Group Trips.htm" />
+    <TocEntry
       Title="Trip Planner"
       Link="/Content/Module Topics/Trips_Topics/Trip Creation Features/Trip Planner.htm#_Toc447786788">
       <TocEntry
