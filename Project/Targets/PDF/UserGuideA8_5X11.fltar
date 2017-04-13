@@ -28,6 +28,8 @@
     ConvertToCMYK="true" />
   <Variables>
     <Variable
-      Name="General/UserGuideTitle">Trips</Variable>
+      Name="General/UserGuideTitle">Scheduling</Variable>
+    <Variable
+      Name="General/SoftwareVersion">6.2.29</Variable>
   </Variables>
 </CatapultTarget>
