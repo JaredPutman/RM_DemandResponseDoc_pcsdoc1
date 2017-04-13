@@ -115,7 +115,7 @@
     </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Posting.htm" />
+      Link="/Content/Module Topics/Scheduling_Topics/Overview/Posting.htm" />
   </TocEntry>
   <TocEntry
     Title="Creating Schedules"
