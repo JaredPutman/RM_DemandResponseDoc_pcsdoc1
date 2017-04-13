@@ -79,4 +79,8 @@
     Name="SoftwareVersion"
     Comment=""
     EvaluatedDefinition="6.2.29">6.2.29</Variable>
+  <Variable
+    Name="DocumentVersionNumber"
+    Comment=""
+    EvaluatedDefinition="DV#3.0">DV#3.0</Variable>
 </CatapultVariableSet>
