@@ -82,5 +82,5 @@
   <Variable
     Name="DocumentVersionNumber"
     Comment=""
-    EvaluatedDefinition="DV#3.0">DV#3.0</Variable>
+    EvaluatedDefinition="DV#2.1">DV#2.1</Variable>
 </CatapultVariableSet>

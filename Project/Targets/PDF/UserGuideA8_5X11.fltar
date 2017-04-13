@@ -31,5 +31,7 @@
       Name="General/UserGuideTitle">Customers</Variable>
     <Variable
       Name="General/SoftwareVersion">6.2.29</Variable>
+    <Variable
+      Name="General/DocumentVersionNumber">DV#2.1</Variable>
   </Variables>
 </CatapultTarget>
