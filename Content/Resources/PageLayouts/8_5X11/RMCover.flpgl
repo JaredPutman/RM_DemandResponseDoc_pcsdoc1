@@ -12,7 +12,7 @@
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame X="180px" Y="213px" Width="543px" Height="96px" Flow="header" Right="-99px" Bottom="555px" BackgroundType="Solid" BackgroundColor="#0175c0" Anchors="" />
+        <Frame X="180px" Y="213px" Width="543px" Height="143px" Flow="header" Right="-99px" Bottom="508px" BackgroundType="Solid" BackgroundColor="#0175c0" Anchors="" />
         <Frame X="-49px" Y="563px" Width="363px" Height="255px" Flow="decoration0" Right="310px" Bottom="46px" />
     </Page>
 </PageStyles>
