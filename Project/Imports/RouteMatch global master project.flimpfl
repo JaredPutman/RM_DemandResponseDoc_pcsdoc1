@@ -6,13 +6,13 @@
   Comment="This template contains several starter topics and other files intended for online HTML5 output with top navigation like a modern website, instead of the more traditional tripane format. It includes several features that you might use in online output, and the content and files have been designed to maximize single-sourcing capabilities. This template starts you out with an HTML5 target. Responsive output is automatically enabled with this type of output. This means the content display changes automatically depending on the width of the screen. The template also includes multiple PDF targets for generating user guides with different content in different sizes; some with crop and registration marks set, some without. You can add other kinds of targets and skins if you like."
   MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
   MasterStylesheetOverride="True"
-  IncludePattern="*.flpgl;*.css;*.flvar;*.flsnp;*.flskn"
+  IncludePattern="*.flpgl;*.css;*.flvar;*.flsnp;*.flskn;*.htm;*.html"
   AutoExcludeNonTaggedFiles="false"
   IncludeLinkedFiles="false"
   DeleteStale="false"
   DeleteUnreferenced="false"
   AutoSync="false"
-  LastImport="2017-04-05T13:39:59.7121232-04:00">
+  LastImport="2017-04-14T13:33:05.1231031-04:00">
   <Files>
     <Url
       Source="file:///C:/Flare Projects/RM Global Master Project/RM Global Master Project.flprj"
@@ -177,6 +177,9 @@
     <Url
       Source="../../../RM Global Master Project/Project/Skins/TopicToolBar.flskn"
       AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Project/Skins/TopicToolBar.flskn" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Print Only Topics/Copyright.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Print Only Topics/Copyright.htm" />
   </CollectedSourceFiles>
   <SkippedSourceFiles>
     <Url
@@ -266,6 +269,108 @@
     <Url
       Source="file://routematch.local/rmdfs/Data/Departments/Doc_Training/Flare Projects/RM Global Master Project/Project/VariableSets/General.flvar"
       AbsoluteSource="file://routematch.local/rmdfs/Data/Departments/Doc_Training/Flare Projects/RM Global Master Project/Project/VariableSets/General.flvar" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Print Only Topics/About.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Print Only Topics/About.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Addresses Module.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Addresses Module.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Print Only Topics/Appendix.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Print Only Topics/Appendix.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/A_Getting Started/Basic Steps.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/A_Getting Started/Basic Steps.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/E_Footer Topics/Company Information.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/E_Footer Topics/Company Information.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/C_Conditions Notes Tables/Conditions.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/C_Conditions Notes Tables/Conditions.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/C_Conditions Notes Tables/ConditionsNotesTables.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/C_Conditions Notes Tables/ConditionsNotesTables.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/E_Footer Topics/FAQs.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/E_Footer Topics/FAQs.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/A_Getting Started/Getting Started.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/A_Getting Started/Getting Started.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Print Only Topics/Glossary.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Print Only Topics/Glossary.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Home.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Home.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/D_Images/ImagePositionedLeft.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/D_Images/ImagePositionedLeft.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/D_Images/ImagePositionedRight.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/D_Images/ImagePositionedRight.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/D_Images/Images.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/D_Images/Images.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/D_Images/ImageWithAbsolutePosition.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/D_Images/ImageWithAbsolutePosition.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/D_Images/ImageWithinList.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/D_Images/ImageWithinList.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Print Only Topics/Index.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Print Only Topics/Index.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/B_Links and Lists/Links.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/B_Links and Lists/Links.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/B_Links and Lists/LinksAndLists.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/B_Links and Lists/LinksAndLists.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/B_Links and Lists/Lists.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/B_Links and Lists/Lists.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/C_Conditions Notes Tables/NotesExamplesBlockquotes.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/C_Conditions Notes Tables/NotesExamplesBlockquotes.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/E_Footer Topics/PDF Downloads.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/E_Footer Topics/PDF Downloads.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Print Only Topics/PDFGuideATitle.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Print Only Topics/PDFGuideATitle.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Print Only Topics/PDGGuideBTitle.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Print Only Topics/PDGGuideBTitle.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/D_Images/Positioned Images.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/D_Images/Positioned Images.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Reporting Module.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Reporting Module.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/RouteMatch Core Modules.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/RouteMatch Core Modules.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Settings Module.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Settings Module.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/C_Conditions Notes Tables/Tables.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/C_Conditions Notes Tables/Tables.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/D_Images/ThumbnailImage.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/D_Images/ThumbnailImage.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/E_Footer Topics/Tips.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/E_Footer Topics/Tips.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Print Only Topics/TOC.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Print Only Topics/TOC.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/Print Only Topics/Welcome.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/Print Only Topics/Welcome.htm" />
+    <Url
+      Source="../../../RM Global Master Project/Content/A_Getting Started/Whats New.htm"
+      AbsoluteSource="file:///C:/Flare Projects/RM Global Master Project/Content/A_Getting Started/Whats New.htm" />
   </SkippedSourceFiles>
   <GeneratedFiles>
     <Url
@@ -345,6 +450,9 @@
       TimeStamp="12/19/2016 3:30:01 PM" />
     <Url
       Source="../../Content/Resources/PageLayouts/8_5X11/ReleaseNotes.flpgl"
+      TimeStamp="2/23/2017 11:29:58 AM" />
+    <Url
+      Source="../../Content/Print Only Topics/Copyright.htm"
       TimeStamp="2/23/2017 11:29:58 AM" />
   </GeneratedFiles>
 </CatapultProject>
