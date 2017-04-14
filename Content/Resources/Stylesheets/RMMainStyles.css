@@ -1,4 +1,4 @@
-﻿/*<meta />*/
+/*<meta />*/
 
 body
 {
@@ -159,7 +159,6 @@ h2
 	margin-top: 20px;
 	font-weight: bold;
 	font-style: normal;
-	page-break-after: avoid;
 }
 
 h3
@@ -1240,8 +1239,8 @@ h1.NoAutoNumber
 		page-break-before: avoid;
 		mc-auto-number-position: none;
 	}
-	
-		p.userguidetitlehtml
+
+	p.userguidetitlehtml
 	{
 		color: #0175C0;
 		font-size: 12pt;
@@ -1305,3 +1304,4 @@ MadCap|variable#userguidetitlehtml
 		display: block;
 	}
 }
+
