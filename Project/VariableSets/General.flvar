@@ -38,10 +38,6 @@
     OriginalName="VersionNumberDot"
     EvaluatedDefinition="DV#2.0">DV#2.0</Variable>
   <Variable
-    Name="Year"
-    OriginalName="Year"
-    EvaluatedDefinition="yyyy">yyyy</Variable>
-  <Variable
     Name="SoftwareVersion"
     Comment=""
     EvaluatedDefinition="6.2.26">6.2.26</Variable>
@@ -83,4 +79,10 @@
     Name="DocumentVersionNumber"
     Comment=""
     EvaluatedDefinition="DV#2.1">DV#2.1</Variable>
+  <Variable
+    Name="Year"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2017-04-14T10:20:54.9372719-04:00"
+    EvaluatedDefinition="yyyy">yyyy</Variable>
 </CatapultVariableSet>
