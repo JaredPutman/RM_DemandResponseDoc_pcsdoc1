@@ -97,11 +97,14 @@
     <TocEntry
       Title="Other Key Features"
       Link="/Content/Module Topics/Customers_Topics/Other Key Features/Other Key Features.htm"
-      BreakType="chapter"
+      BreakType="none"
       PageType="firstright"
       StartSection="false"
       PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+      PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
       <TocEntry
         Title="How to Edit a Customer"
         Link="/Content/Module Topics/Customers_Topics/Other Key Features/How to Edit a Customer.htm#_Toc447728894" />
