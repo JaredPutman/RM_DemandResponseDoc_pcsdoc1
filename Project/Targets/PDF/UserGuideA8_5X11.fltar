@@ -28,7 +28,7 @@
     ConvertToCMYK="true" />
   <Variables>
     <Variable
-      Name="General/UserGuideTitle">Dispatching</Variable>
+      Name="General/UserGuideTitle">Dispatching User's Guide</Variable>
     <Variable
       Name="General/SoftwareVersion">6.2.29</Variable>
     <Variable

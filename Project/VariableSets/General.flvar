@@ -32,7 +32,7 @@
   <Variable
     Name="UserGuideTitle"
     Comment=""
-    EvaluatedDefinition="Verification">Verification</Variable>
+    EvaluatedDefinition="Verification User's Guide">Verification User's Guide</Variable>
   <Variable
     Name="DocumentVersionNumber"
     OriginalName="VersionNumberDot"
@@ -54,23 +54,23 @@
   <Variable
     Name="UserGuideTitle"
     Comment=""
-    EvaluatedDefinition="Trips">Trips</Variable>
+    EvaluatedDefinition="Trips User's Guide">Trips User's Guide</Variable>
   <Variable
     Name="UserGuideTitle"
     Comment=""
-    EvaluatedDefinition="Dispatching">Dispatching</Variable>
+    EvaluatedDefinition="Dispatching User's Guide">Dispatching User's Guide</Variable>
   <Variable
     Name="UserGuideTitle"
     Comment=""
-    EvaluatedDefinition="Customers">Customers</Variable>
+    EvaluatedDefinition="Customers User's Guide">Customers User's Guide</Variable>
   <Variable
     Name="UserGuideTitle"
     Comment=""
-    EvaluatedDefinition="Scheduling">Scheduling</Variable>
+    EvaluatedDefinition="Scheduling User's Guide">Scheduling User's Guide</Variable>
   <Variable
     Name="UserGuideTitle"
     Comment=""
-    EvaluatedDefinition="Services, Billing, and Funding Sources">Services, Billing, and Funding Sources</Variable>
+    EvaluatedDefinition="Services, Billing, and Funding Sources User's Guide">Services, Billing, and Funding Sources User's Guide</Variable>
   <Variable
     Name="SoftwareVersion"
     Comment=""
