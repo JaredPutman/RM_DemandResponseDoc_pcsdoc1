@@ -5,7 +5,7 @@
   Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/User Guide TOCs/Dispatching_Module_UserGuide.fltoc"
+  MasterToc="/Project/TOCs/User Guide TOCs/Customers_Module_UserGuide.fltoc"
   ConditionTagExpression="include[General.PDF or PrintGuides.UserGuideA or &quot;Software Version Tags.6_2_17&quot; or &quot;Software Version Tags.6_2_18&quot; or &quot;Software Version Tags.6_2_19&quot; or &quot;Software Version Tags.6_2_20&quot;] exclude[General.Online or PrintGuides.UserGuideB] "
   PatchHeadingLevels="true"
   InjectEmptyPages="true"
@@ -28,7 +28,7 @@
     ConvertToCMYK="true" />
   <Variables>
     <Variable
-      Name="General/UserGuideTitle">Dispatching User's Guide</Variable>
+      Name="General/UserGuideTitle">Customers User's Guide</Variable>
     <Variable
       Name="General/SoftwareVersion">6.2.29</Variable>
     <Variable
