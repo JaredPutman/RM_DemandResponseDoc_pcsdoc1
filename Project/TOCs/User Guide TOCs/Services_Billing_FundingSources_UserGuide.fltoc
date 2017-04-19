@@ -171,7 +171,7 @@
       Link="/Content/Module Topics/ServicesBillingFundingSources_Topics/Funding Sources/How to Create a Funding Source.htm" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Editing and Deleting Funding Sources.htm">
+      Link="/Content/Module Topics/ServicesBillingFundingSources_Topics/Funding Sources/Editing and Deleting Funding Sources.htm">
       <TocEntry
         Title="How to Edit a Funding Source"
         Link="/Content/Module Topics/ServicesBillingFundingSources_Topics/Funding Sources/How to Edit a Funding Source.htm" />
