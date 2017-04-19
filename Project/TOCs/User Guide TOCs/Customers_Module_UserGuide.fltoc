@@ -94,6 +94,33 @@
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/Module Topics/Customers_Topics/Creating a New Customer/Customer Groups.htm" />
+    <TocEntry
+      Title="Other Key Features"
+      Link="/Content/Module Topics/Customers_Topics/Other Key Features/Other Key Features.htm"
+      BreakType="chapter"
+      PageType="firstright"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+      <TocEntry
+        Title="How to Edit a Customer"
+        Link="/Content/Module Topics/Customers_Topics/Other Key Features/How to Edit a Customer.htm#_Toc447728894" />
+      <TocEntry
+        Title="How to Inactivate a Customer"
+        Link="/Content/Module Topics/Customers_Topics/Other Key Features/How to Inactivate a Customer.htm#_Toc447728895" />
+      <TocEntry
+        Title=" How to View Customer Trip History"
+        Link="/Content/Module Topics/Customers_Topics/Other Key Features/View Customer Trip History.htm#_Toc447728896" />
+      <TocEntry
+        Title="How to Show Customer in Trips"
+        Link="/Content/Module Topics/Customers_Topics/Other Key Features/How to Show Customer in Trips.htm#_Toc447728897" />
+      <TocEntry
+        Title="How to Delete a Customer"
+        Link="/Content/Module Topics/Customers_Topics/Other Key Features/How to Delete a Customer.htm#_Toc447728898" />
+      <TocEntry
+        Title="How to Print Customer Information"
+        Link="/Content/Module Topics/Customers_Topics/Other Key Features/How to Print Customer Information.htm#_Toc447728899" />
+    </TocEntry>
   </TocEntry>
   <TocEntry
     Title="Audit Log"
@@ -185,33 +212,6 @@
     <TocEntry
       Title="Assign Delayed Internal IDs"
       Link="/Content/Module Topics/Customers_Topics/Certification/Assign Delayed Internal IDs.htm" />
-  </TocEntry>
-  <TocEntry
-    Title="Managing Customers"
-    Link="/Content/Module Topics/Customers_Topics/Other Key Features/Other Key Features.htm"
-    BreakType="chapter"
-    PageType="firstright"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
-    <TocEntry
-      Title="How to Edit a Customer"
-      Link="/Content/Module Topics/Customers_Topics/Other Key Features/How to Edit a Customer.htm#_Toc447728894" />
-    <TocEntry
-      Title="How to Inactivate a Customer"
-      Link="/Content/Module Topics/Customers_Topics/Other Key Features/How to Inactivate a Customer.htm#_Toc447728895" />
-    <TocEntry
-      Title="View Customer Trip History"
-      Link="/Content/Module Topics/Customers_Topics/Other Key Features/View Customer Trip History.htm#_Toc447728896" />
-    <TocEntry
-      Title="How to Show Customer in Trips"
-      Link="/Content/Module Topics/Customers_Topics/Other Key Features/How to Show Customer in Trips.htm#_Toc447728897" />
-    <TocEntry
-      Title="How to Delete a Customer"
-      Link="/Content/Module Topics/Customers_Topics/Other Key Features/How to Delete a Customer.htm#_Toc447728898" />
-    <TocEntry
-      Title="How to Print Customer Information"
-      Link="/Content/Module Topics/Customers_Topics/Other Key Features/How to Print Customer Information.htm#_Toc447728899" />
   </TocEntry>
   <TocEntry
     Title="Index"
