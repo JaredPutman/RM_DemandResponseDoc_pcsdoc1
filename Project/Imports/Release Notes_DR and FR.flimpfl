@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProject
+  Version="1"
+  xml:lang="en-us"
+  SourceControlBound="true"
+  Comment="This template contains several starter topics and other files intended for online HTML5 output with top navigation like a modern website, instead of the more traditional tripane format. It includes several features that you might use in online output, and the content and files have been designed to maximize single-sourcing capabilities. This template starts you out with an HTML5 target. Responsive output is automatically enabled with this type of output. This means the content display changes automatically depending on the width of the screen. The template also includes multiple PDF targets for generating user guides with different content in different sizes; some with crop and registration marks set, some without. You can add other kinds of targets and skins if you like."
+  MasterStylesheet="/Content/Resources/Stylesheets/RMMainStyles.css"
+  MasterStylesheetOverride="False"
+  MasterToc="/Project/TOCs/User Guide TOCs/Master_TOC (All Topics).fltoc"
+  SourceControlProviderType="Git"
+  ProjectGuid="f518222a-2a61-4d1d-a1aa-6c65c90d888e"
+  IncludePattern="*.htm;*.html;*.png;*.bmp;*.jpg;*.jpeg;*.tif;*.tiff;*.gif;*.swd;*.emf;*.wmf;*.xaml;*.xps;*.exps;*.hdp;*.wdp;*.dib;*.svg;*.ps;*.eps;*.pdf"
+  AutoExcludeNonTaggedFiles="false"
+  IncludeLinkedFiles="false"
+  DeleteStale="false"
+  DeleteUnreferenced="false"
+  AutoSync="false"
+  LastImport="2017-07-05T14:51:04.0859808-04:00">
+  <Files>
+    <Url
+      Source="file:///C:/Flare Projects/Release Notes_DR and FR/Release Notes_DR and FR.flprj"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Release Notes_DR and FR.flprj" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles>
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Comparable Fixed Route Ride Time.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Comparable Fixed Route Ride Time.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Deactivate Addresses Alert.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Deactivate Addresses Alert.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Deactivate Addresses Toolbar Button.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Deactivate Addresses Toolbar Button.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Comparable Fixed Route Ride Time.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Comparable Fixed Route Ride Time.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Deactivate Unused Addresses.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Deactivate Unused Addresses.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_MTData Integration.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_MTData Integration.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_On the Fly Group Trips.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_On the Fly Group Trips.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Service Exceptions.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Service Exceptions.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Ellipsis Options.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Ellipsis Options.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Pickup Dropoff Options.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Pickup Dropoff Options.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Review Screen.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Review Screen.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Save Option.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Save Option.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Select Customers.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Select Customers.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Remove Address Search.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Remove Address Search.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Service Exception Option.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Service Exception Option.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Complete.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Complete.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Create New Option.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Create New Option.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Edit or Delete.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Edit or Delete.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Select Date.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Select Date.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Select Trips to Cancel.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Select Trips to Cancel.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Trip Exception Management Screen.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Trip Exception Management Screen.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Unused Addresses Search Results.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Unused Addresses Search Results.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Unused Addresses Toolbar Button.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Unused Addresses Toolbar Button.png" />
+  </CollectedSourceFiles>
+  <SkippedSourceFiles>
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/01_ Intro.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/01_ Intro.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.28/01_FR_Deadheading Vehicles.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.28/01_FR_Deadheading Vehicles.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/05_About.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/05_About.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.28/05_FR_Driver Current Signon Time.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.28/05_FR_Driver Current Signon Time.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/35_Issues Addressed Topics/6.2.26 Cases.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/35_Issues Addressed Topics/6.2.26 Cases.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/35_Issues Addressed Topics/6.2.27 Cases.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/35_Issues Addressed Topics/6.2.27 Cases.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/35_Issues Addressed Topics/6.2.28_Issues Addressed.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/35_Issues Addressed Topics/6.2.28_Issues Addressed.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/35_Issues Addressed Topics/6.2.29_Issues Addressed.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/35_Issues Addressed Topics/6.2.29_Issues Addressed.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/35_Issues Addressed Topics/6.2.30 Issues Addressed.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/35_Issues Addressed Topics/6.2.30 Issues Addressed.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/10_FR Enhancements.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/10_FR Enhancements.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.28/10_FR_Psgr Miles Transported Rpt.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.28/10_FR_Psgr Miles Transported Rpt.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.28/15_FR_Ownership Group.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.28/15_FR_Ownership Group.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/20_DR Fixes_Enhancements.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/20_DR Fixes_Enhancements.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.28/20_FR_Fail Safe Posting.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.28/20_FR_Fail Safe Posting.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/ack_auto_posting.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/ack_auto_posting.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Acknowledge Auto-Posting Invalid Data.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Acknowledge Auto-Posting Invalid Data.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.27/Addresses Date Picker.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.27/Addresses Date Picker.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.27/Addresses Module.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.27/Addresses Module.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/AVL Filter Options.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/AVL Filter Options.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.27/Bi-Directional Communication.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.27/Bi-Directional Communication.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/BiweeklySOAlert.jpg"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/BiweeklySOAlert.jpg" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/BiweeklySOScreen.jpg"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/BiweeklySOScreen.jpg" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Bullet1.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Bullet1.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Bullet1Online.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Bullet1Online.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Bullet1OnlineLight.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Bullet1OnlineLight.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Bullet1Print.eps"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Bullet1Print.eps" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Bullet1PrintLight.eps"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Bullet1PrintLight.eps" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Bullet2.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Bullet2.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Bullet2Online.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Bullet2Online.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Bullet2OnlineLight.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Bullet2OnlineLight.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Bullet2Print.eps"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Bullet2Print.eps" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Bullet2PrintLight.eps"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Bullet2PrintLight.eps" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/CompanyLogo.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/CompanyLogo.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.29/create_ntd_rpt_by_vehicle.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.29/create_ntd_rpt_by_vehicle.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/create_ownership_grp.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/create_ownership_grp.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Customer Group Button.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Customer Group Button.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Cancel Stops.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Cancel Stops.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Create New Screen.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Create New Screen.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Draw Map Screen.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Draw Map Screen.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Draw Options.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Draw Options.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Locate on Map.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Locate on Map.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Redraw Route.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Redraw Route.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Review Screen.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Review Screen.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Select Affected Area.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Select Affected Area.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Select Routes.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Detour Wizard Select Routes.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.29/DR_Duplicate Customer Check.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.29/DR_Duplicate Customer Check.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.29/DR_Group Trip Bookings.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.29/DR_Group Trip Bookings.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.28/DR_Pickup and Drop-off Map Icons.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.28/DR_Pickup and Drop-off Map Icons.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.29/DR_Posting Updates.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.29/DR_Posting Updates.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.29/DR_Temporarily Suspend a Standing Order.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.29/DR_Temporarily Suspend a Standing Order.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.29/DR_Trip Time Conflict Checking.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.29/DR_Trip Time Conflict Checking.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/driver_current_signon.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/driver_current_signon.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/DriverPrintOptions.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/DriverPrintOptions.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Duplicate Customer Alert.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Duplicate Customer Alert.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Duplicate Customer Setting.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Duplicate Customer Setting.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/ellipsis.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/ellipsis.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.26/ETA Notifications.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.26/ETA Notifications.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/ETA_Ahead.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/ETA_Ahead.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/ETA_Behind.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/ETA_Behind.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/ETA_Early.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/ETA_Early.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/ETA_Late.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/ETA_Late.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/ETA_Ontime.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/ETA_Ontime.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/ETA_Unknown.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/ETA_Unknown.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.26/Events Module Tabs.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.26/Events Module Tabs.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/EventSelectCustomer.jpg"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/EventSelectCustomer.jpg" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.26/Excessive Dwell Time Alert.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.26/Excessive Dwell Time Alert.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/ExcessiveDwellTimeAlert.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/ExcessiveDwellTimeAlert.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.29/export flat formatted report.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.29/export flat formatted report.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/Favorite Addresses tab.jpg"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/Favorite Addresses tab.jpg" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.26/Favorite Addresses.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.26/Favorite Addresses.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/FooterCircle.eps"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/FooterCircle.eps" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/FooterCircleBlack.eps"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/FooterCircleBlack.eps" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/FooterLogo.eps"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/FooterLogo.eps" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/FooterLogoBlack.eps"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/FooterLogoBlack.eps" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.30/FR_AVL Improvements.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.30/FR_AVL Improvements.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.31/FR_Same Day Detours.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/15_Fixed Route Topics/6.2.31/FR_Same Day Detours.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Management Customers Added to Group.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Management Customers Added to Group.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Management Customers Selected.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Management Customers Selected.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Management Select Customers.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Management Select Customers.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Management Select Group.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Management Select Group.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Trip Members Included.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Trip Members Included.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Trip Pickup Dropoff Options.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Trip Pickup Dropoff Options.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Trip Save Option.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Trip Save Option.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Trip Select Group Save.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Trip Select Group Save.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Trip Settings.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Group Trip Settings.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Manage Detours button.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/6.2.30/Manage Detours button.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Manage Group Booking Window.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Manage Group Booking Window.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/NoteIcon.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/NoteIcon.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/ntd_rpt_screen.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/ntd_rpt_screen.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/OperatorIncidentScreen.jpg"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/OperatorIncidentScreen.jpg" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.28/Pickup_Dropoff_Icons.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.28/Pickup_Dropoff_Icons.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Posting Failure Screen.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Posting Failure Screen.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Posting History Option.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Posting History Option.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Posting History Screen Next Day Validated.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Posting History Screen Next Day Validated.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Posting History Screen.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Posting History Screen.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Pre-Posting Check Option.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Pre-Posting Check Option.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Pre-Posting Check Pass Alert.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Pre-Posting Check Pass Alert.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Fixed Route/psgr_miles_trans_rpt.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Fixed Route/psgr_miles_trans_rpt.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.27/Quick Reports Freeze Column.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.27/Quick Reports Freeze Column.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.27/Quick Reports.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.27/Quick Reports.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.26/Quick Reports.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.26/Quick Reports.htm" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/QuickReportExportOptions.jpg"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/QuickReportExportOptions.jpg" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/QuickReportFieldSelection.jpg"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/QuickReportFieldSelection.jpg" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/QuickReportGridLayoutToolbar.jpg"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/QuickReportGridLayoutToolbar.jpg" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/QuickReportLiveFilter.jpg"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/QuickReportLiveFilter.jpg" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/QuickReportNew.jpg"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/QuickReportNew.jpg" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/QuickReportSave.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/QuickReportSave.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/QuickReportToolbarButton.jpg"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/QuickReportToolbarButton.jpg" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/RMLOGO.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/RMLOGO.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/RouteMatch Logo PNG High Res RGB.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/RouteMatch Logo PNG High Res RGB.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Trip Suspension Chained Trips.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Trip Suspension Chained Trips.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Trip Suspension Confirmation.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Trip Suspension Confirmation.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Trip Suspension Option.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Trip Suspension Option.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Trip Suspension Screen.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Trip Suspension Screen.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Trip Time Conflict Checking Error Message.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Trip Time Conflict Checking Error Message.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Trip Time Conflict Checking Setting.png"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.29/Trip Time Conflict Checking Setting.png" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/TripsByRequestTimeScreen.jpg"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.26/TripsByRequestTimeScreen.jpg" />
+    <Url
+      Source="../../../Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.26/Verification Module Enhancements.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.26/Verification Module Enhancements.htm" />
+  </SkippedSourceFiles>
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/Comparable Fixed Route Ride Time.png"
+      TimeStamp="6/15/2017 1:13:51 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/Deactivate Addresses Alert.png"
+      TimeStamp="6/19/2017 9:26:09 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/Deactivate Addresses Toolbar Button.png"
+      TimeStamp="6/16/2017 4:17:30 PM" />
+    <Url
+      Source="../../Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Comparable Fixed Route Ride Time.htm"
+      TimeStamp="6/28/2017 11:57:18 AM" />
+    <Url
+      Source="../../Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Deactivate Unused Addresses.htm"
+      TimeStamp="6/28/2017 9:58:03 AM" />
+    <Url
+      Source="../../Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_MTData Integration.htm"
+      TimeStamp="6/28/2017 12:09:50 PM" />
+    <Url
+      Source="../../Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_On the Fly Group Trips.htm"
+      TimeStamp="6/30/2017 12:45:25 PM" />
+    <Url
+      Source="../../Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Service Exceptions.htm"
+      TimeStamp="7/5/2017 11:38:16 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Ellipsis Options.png"
+      TimeStamp="6/27/2017 11:44:33 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Pickup Dropoff Options.png"
+      TimeStamp="6/27/2017 1:50:50 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Review Screen.png"
+      TimeStamp="6/27/2017 12:11:58 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Save Option.png"
+      TimeStamp="6/27/2017 10:33:34 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/On the Fly Group Trips Select Customers.png"
+      TimeStamp="6/27/2017 11:45:00 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/Remove Address Search.png"
+      TimeStamp="6/16/2017 1:55:37 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/Service Exception Option.png"
+      TimeStamp="6/19/2017 1:07:40 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Complete.png"
+      TimeStamp="6/29/2017 4:10:47 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Create New Option.png"
+      TimeStamp="6/29/2017 10:59:58 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Edit or Delete.png"
+      TimeStamp="6/29/2017 4:26:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Select Date.png"
+      TimeStamp="6/29/2017 10:28:58 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Select Trips to Cancel.png"
+      TimeStamp="6/29/2017 2:10:58 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/Service Exceptions Trip Exception Management Screen.png"
+      TimeStamp="6/29/2017 11:18:50 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/Unused Addresses Search Results.png"
+      TimeStamp="6/16/2017 3:24:42 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Demand Response/6.2.30/Unused Addresses Toolbar Button.png"
+      TimeStamp="6/16/2017 10:50:20 AM" />
+  </GeneratedFiles>
+</CatapultProject>
