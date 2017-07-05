@@ -118,6 +118,9 @@
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/Module Topics/Trips_Topics/Trip Creation Features/Trip Time Conflict Checking.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Module Topics/Trips_Topics/Trip Creation Features/Comparable Fixed Route Ride Time.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
   <TocEntry
     Title="Other Key Features"
