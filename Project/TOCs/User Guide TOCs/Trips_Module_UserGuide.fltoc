@@ -104,7 +104,11 @@
       Link="/Content/Module Topics/Trips_Topics/Trip Creation Features/Favorite Trips.htm#_Toc447786787" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Module Topics/Trips_Topics/Trip Creation Features/Group Trips.htm" />
+      Link="/Content/Module Topics/Trips_Topics/Trip Creation Features/Group Trips.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Module Topics/Trips_Topics/Trip Creation Features/On the Fly Group Trips.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
     <TocEntry
       Title="Trip Planner"
       Link="/Content/Module Topics/Trips_Topics/Trip Creation Features/Trip Planner.htm#_Toc447786788">
