@@ -339,6 +339,9 @@
         Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/How to Validate a Schedule.htm" />
     </TocEntry>
     <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/Service Exceptions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
       Title="IVR Callouts"
       Link="/Content/Module Topics/Scheduling_Topics/Other Scheduling Features/IVR Callouts.htm">
       <TocEntry

@@ -25,6 +25,9 @@
     <Url
       Source="../../Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Comparable Fixed Route Ride Time.htm"
       AbsoluteSource="file:///C:/Flare Projects/Demand Response/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Comparable Fixed Route Ride Time.htm" />
+    <Url
+      Source="../../Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Service Exceptions.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Demand Response/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Service Exceptions.htm" />
   </ExcludedFiles>
   <CollectedSourceFiles>
     <Url
