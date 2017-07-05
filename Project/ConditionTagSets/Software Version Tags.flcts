@@ -90,4 +90,8 @@
     BackgroundColor="#00bfff"
     Name="6_2_29"
     Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="6_2_30"
+    Comment="" />
 </CatapultConditionTagSet>

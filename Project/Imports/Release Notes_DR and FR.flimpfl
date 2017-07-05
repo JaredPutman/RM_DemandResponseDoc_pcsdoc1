@@ -21,7 +21,11 @@
       Source="file:///C:/Flare Projects/Release Notes_DR and FR/Release Notes_DR and FR.flprj"
       AbsoluteSource="file:///C:/Flare Projects/Release Notes_DR and FR/Release Notes_DR and FR.flprj" />
   </Files>
-  <ExcludedFiles />
+  <ExcludedFiles>
+    <Url
+      Source="../../Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Comparable Fixed Route Ride Time.htm"
+      AbsoluteSource="file:///C:/Flare Projects/Demand Response/Content/Release Notes_DR_FR/25_Demand Response Topics/6.2.30/DR_Comparable Fixed Route Ride Time.htm" />
+  </ExcludedFiles>
   <CollectedSourceFiles>
     <Url
       Source="../../../Release Notes_DR and FR/Content/Resources/Images/Demand Response/6.2.30/Comparable Fixed Route Ride Time.png"
